@@ -72,6 +72,12 @@
     },
     "done": true
   },
+  "prehistoricfauna:prehistoricfauna/general/digger_man": {
+    "criteria": {
+      "cretaceous_fossil": "2025-08-06 04:00:42 +0000"
+    },
+    "done": true
+  },
   "vs_eureka:recipes/balloon_color": {
     "criteria": {
       "has_red_balloon": "2025-08-06 02:27:32 +0000",
