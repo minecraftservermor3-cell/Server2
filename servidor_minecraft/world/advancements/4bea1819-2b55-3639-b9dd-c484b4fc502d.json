@@ -79,6 +79,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-08-06 05:04:46 +0000",
       "minecraft:creeper": "2025-08-06 05:04:36 +0000",
+      "minecraft:cave_spider": "2025-08-06 23:22:21 +0000",
       "minecraft:zombie": "2025-08-06 04:11:26 +0000",
       "minecraft:zombie_villager": "2025-08-06 23:16:02 +0000"
     },
@@ -108,6 +109,7 @@
       "cooked_beef": "2025-08-06 22:31:17 +0000",
       "baked_potato": "2025-08-06 05:05:06 +0000",
       "apple": "2025-08-06 04:35:51 +0000",
+      "golden_apple": "2025-08-06 23:23:04 +0000",
       "cooked_chicken": "2025-08-06 04:59:20 +0000"
     },
     "done": false
@@ -206,6 +208,12 @@
   "prehistoricfauna:prehistoricfauna/general/plant_made_of_plant": {
     "criteria": {
       "fiber": "2025-08-06 22:46:07 +0000"
+    },
+    "done": true
+  },
+  "jurassic_additions:fossilized_tree_sap": {
+    "criteria": {
+      "fossilized_tree_sap_0": "2025-08-06 23:32:16 +0000"
     },
     "done": true
   },
