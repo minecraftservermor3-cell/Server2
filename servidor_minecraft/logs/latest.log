@@ -653,3 +653,12 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [06Aug2025 03:56:08.207] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=647, y=95, z=249} BlockPos{x=645, y=93, z=249}
 [06Aug2025 03:56:08.743] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=646, y=95, z=250} BlockPos{x=646, y=92, z=252}
 [06Aug2025 04:00:42.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha has made the advancement [Digger Man]
+[06Aug2025 04:10:07.990] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: matmat3[/127.250.181.148:33681] logged in with entity id 31773 at (-8.5, 70.0, 2.5)
+[06Aug2025 04:10:07.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 joined the game
+[06Aug2025 04:10:07.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [Welcome To Jurassic Additions]
+[06Aug2025 04:11:25.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg was incinerated by an Encased Fan
+[06Aug2025 04:11:26.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [Monster Hunter]
+[06Aug2025 04:11:44.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 was slain by Zombie
+[06Aug2025 04:12:24.196] [Server thread/INFO] [org.valkyrienskies.eureka.util.ShipAssembler/]: Assembled ship with 169 blocks, out of 32768 allowed
+[06Aug2025 04:12:29.442] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8633082650000006E7, 96.14421422879799, 256.02795378118753] -> [647.8803748898208, 100.30000001192093, 1.2290050650000006E7] returning empty list! this might break things
+[06Aug2025 04:12:34.489] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8633082650000006E7, 100.0, 249.48328642174602] -> [651.111930558458, 103.62145337173075, 1.2290050650000006E7] returning empty list! this might break things
