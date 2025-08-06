@@ -95,31 +95,25 @@
     },
     "done": true
   },
-  "morevillagers:first_trade": {
+  "minecraft:husbandry/plant_seed": {
     "criteria": {
-      "villagertrade": "2025-08-06 05:08:57 +0000"
+      "wheat": "2025-08-06 04:29:24 +0000"
     },
     "done": true
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-08-06 04:29:39 +0000",
+      "cooked_beef": "2025-08-06 22:31:17 +0000",
       "baked_potato": "2025-08-06 05:05:06 +0000",
       "apple": "2025-08-06 04:35:51 +0000",
       "cooked_chicken": "2025-08-06 04:59:20 +0000"
     },
     "done": false
   },
-  "minecraft:husbandry/bred_all_animals": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "minecraft:cow": "2025-08-06 04:53:03 +0000",
-      "minecraft:chicken": "2025-08-06 04:53:41 +0000"
-    },
-    "done": false
-  },
-  "minecraft:story/obtain_armor": {
-    "criteria": {
-      "iron_chestplate": "2025-08-06 04:52:04 +0000"
+      "consumed_item": "2025-08-06 04:29:39 +0000"
     },
     "done": true
   },
@@ -129,9 +123,64 @@
     },
     "done": true
   },
-  "minecraft:husbandry/root": {
+  "prehistoricfauna:prehistoricfauna/general/digger_man": {
     "criteria": {
-      "consumed_item": "2025-08-06 04:29:39 +0000"
+      "cretaceous_fossil": "2025-08-06 04:34:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-08-06 04:35:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-08-06 04:51:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-08-06 04:51:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-08-06 04:52:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2025-08-06 04:53:03 +0000",
+      "minecraft:chicken": "2025-08-06 04:53:41 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-08-06 04:53:03 +0000"
+    },
+    "done": true
+  },
+  "jurassic_additions:digging_dinosaurs": {
+    "criteria": {
+      "digging_dinosaurs_0": "2025-08-06 05:02:17 +0000"
+    },
+    "done": true
+  },
+  "jurassic_additions:paleontology": {
+    "criteria": {
+      "paleontology_0": "2025-08-06 05:02:21 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:first_trade": {
+    "criteria": {
+      "villagertrade": "2025-08-06 05:08:57 +0000"
     },
     "done": true
   },
@@ -147,57 +196,9 @@
     },
     "done": false
   },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2025-08-06 04:35:32 +0000"
-    },
-    "done": true
-  },
-  "jurassic_additions:paleontology": {
-    "criteria": {
-      "paleontology_0": "2025-08-06 05:02:21 +0000"
-    },
-    "done": true
-  },
-  "prehistoricfauna:prehistoricfauna/general/digger_man": {
-    "criteria": {
-      "cretaceous_fossil": "2025-08-06 04:34:40 +0000"
-    },
-    "done": true
-  },
   "morevillagers:master_trade": {
     "criteria": {
       "villagertrade": "2025-08-06 05:08:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2025-08-06 04:51:33 +0000"
-    },
-    "done": true
-  },
-  "jurassic_additions:digging_dinosaurs": {
-    "criteria": {
-      "digging_dinosaurs_0": "2025-08-06 05:02:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "wheat": "2025-08-06 04:29:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/breed_an_animal": {
-    "criteria": {
-      "bred": "2025-08-06 04:53:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/smelt_iron": {
-    "criteria": {
-      "iron": "2025-08-06 04:51:53 +0000"
     },
     "done": true
   },
