@@ -202,5 +202,11 @@
     },
     "done": true
   },
+  "prehistoricfauna:prehistoricfauna/general/plant_made_of_plant": {
+    "criteria": {
+      "fiber": "2025-08-06 22:46:07 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
