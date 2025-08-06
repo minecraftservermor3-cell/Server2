@@ -356,6 +356,18 @@
     },
     "done": true
   },
+  "quark:crab_in_a_bucket": {
+    "criteria": {
+      "crab_bucket": "2025-08-06 04:38:10 +0000"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2025-08-06 04:31:23 +0000"
+    },
+    "done": true
+  },
   "prehistoricfauna:prehistoricfauna/general/digger_man": {
     "criteria": {
       "cretaceous_fossil": "2025-08-06 03:36:18 +0000"

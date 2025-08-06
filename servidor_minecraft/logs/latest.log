@@ -752,3 +752,19 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [06Aug2025 04:20:26.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <matmat3> no se escuha ?
 [06Aug2025 04:20:36.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> nop
 [06Aug2025 04:29:24.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [A Seedy Place]
+[06Aug2025 04:34:00.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [Stone Age]
+[06Aug2025 04:34:40.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [Digger Man]
+[06Aug2025 04:35:32.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [Getting an Upgrade]
+[06Aug2025 04:38:10.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [Crabtured]
+[06Aug2025 04:45:46.818] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=682, y=79, z=286} BlockPos{x=682, y=79, z=285}
+[06Aug2025 04:45:47.273] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=682, y=80, z=288} BlockPos{x=682, y=78, z=288}
+[06Aug2025 04:46:21.717] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=679, y=76, z=316} BlockPos{x=680, y=74, z=316}
+[06Aug2025 04:46:24.015] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=675, y=76, z=320} BlockPos{x=674, y=75, z=320}
+[06Aug2025 04:46:29.546] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=675, y=75, z=318} BlockPos{x=677, y=74, z=317}
+[06Aug2025 04:46:31.126] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=675, y=74, z=312} BlockPos{x=675, y=74, z=313}
+[06Aug2025 04:46:45.618] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=681, y=80, z=286} BlockPos{x=680, y=78, z=284}
+[06Aug2025 04:46:52.362] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=664, y=84, z=277} BlockPos{x=662, y=83, z=277}
+[06Aug2025 04:51:33.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [Isn't It Iron Pick]
+[06Aug2025 04:51:53.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [Acquire Hardware]
+[06Aug2025 04:52:04.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [Suit Up]
+[06Aug2025 04:53:03.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [The Parrots and the Bats]
