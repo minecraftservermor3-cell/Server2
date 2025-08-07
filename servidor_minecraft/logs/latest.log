@@ -14,3 +14,16 @@
 [07Aug2025 00:11:55.660] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
 [07Aug2025 00:11:55.660] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: matmat3 lost connection: Timed out
 [07Aug2025 00:11:55.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 left the game
+[07Aug2025 00:12:18.166] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:47203] logged in with entity id 39349 at (665.3504784236924, 86.0, 262.5289124558176)
+[07Aug2025 00:12:18.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
+[07Aug2025 00:12:48.303] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Timed out
+[07Aug2025 00:12:48.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg left the game
+[07Aug2025 00:12:51.203] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@42a1b171[id=<null>,name=matmat3,properties={},legacy=false] (/127.250.181.148:34129) lost connection: Disconnected
+[07Aug2025 00:13:07.761] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:41327] logged in with entity id 39672 at (666.9227302134967, 86.0, 268.8495917303559)
+[07Aug2025 00:13:07.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
+[07Aug2025 00:13:36.268] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: matmat3[/127.250.181.148:41491] logged in with entity id 40012 at (1127.8074356006161, 62.07326432466507, 153.58662352774763)
+[07Aug2025 00:13:36.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 joined the game
+[07Aug2025 00:18:43.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [Dino Plushies]
+[07Aug2025 00:26:35.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 has made the advancement [Sweet Dreams]
+[07Aug2025 00:42:21.357] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: matmat3 lost connection: Disconnected
+[07Aug2025 00:42:21.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 left the game
