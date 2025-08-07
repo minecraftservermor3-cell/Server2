@@ -8724,3 +8724,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [07Aug2025 00:42:05.221] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
 [07Aug2025 00:42:21.357] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: matmat3 lost connection: Disconnected
 [07Aug2025 00:42:21.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matmat3 left the game
+[07Aug2025 00:47:05.185] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[07Aug2025 00:47:05.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[07Aug2025 00:52:05.185] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[07Aug2025 00:52:05.198] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
