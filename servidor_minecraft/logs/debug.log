@@ -7971,3 +7971,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [07Aug2025 22:02:57.472] [Server thread/DEBUG] [mixin/]: Mixing PotionUtilsMixin from quark.mixins.json into net.minecraft.world.item.alchemy.PotionUtils
 [07Aug2025 22:03:46.977] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
 [07Aug2025 22:03:47.000] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[07Aug2025 22:08:46.916] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[07Aug2025 22:08:46.932] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[07Aug2025 22:13:46.918] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[07Aug2025 22:13:46.932] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
