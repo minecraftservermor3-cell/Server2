@@ -422,3 +422,8 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [07Aug2025 21:58:46.916] [Server thread/INFO] [superlord.prehistoricfauna.common.recipes.PaleontologyTableRecipeJsonManager/]: Registered 3 jsons with items!
 [07Aug2025 22:00:07.722] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:59165] logged in with entity id 82 at (669.5355995982279, 90.0, 264.43116668882766)
 [07Aug2025 22:00:07.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
+[07Aug2025 22:35:24.727] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
+[07Aug2025 22:35:24.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg left the game
+[07Aug2025 22:35:39.438] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:60865] logged in with entity id 7837 at (665.522420592006, 86.0, 267.6541984828058)
+[07Aug2025 22:35:39.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
+[07Aug2025 22:35:46.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg was slain by Iron Golem
