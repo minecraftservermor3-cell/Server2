@@ -7974,3 +7974,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [07Aug2025 02:05:46.133] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getFluidStateRedirectPathType$0(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/world/level/Level;[Lnet/minecraft/world/level/material/FluidState;DDD)V to md56ab1d$lambda$getFluidStateRedirectPathType$0$3 in valkyrienskies-common.mixins.json:feature.ai.node_evaluator.SwimNodeEvaluatorMixin
 [07Aug2025 02:09:06.119] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
 [07Aug2025 02:09:06.140] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[07Aug2025 02:14:06.077] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[07Aug2025 02:14:06.093] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[07Aug2025 02:19:06.076] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[07Aug2025 02:19:06.090] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
