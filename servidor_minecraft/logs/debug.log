@@ -8006,3 +8006,8 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [07Aug2025 03:24:06.081] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
 [07Aug2025 03:29:06.075] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
 [07Aug2025 03:29:06.090] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[07Aug2025 03:33:56.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Morangg) moved wrongly! 0.31184294451043115
+[07Aug2025 03:34:06.067] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[07Aug2025 03:34:06.080] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[07Aug2025 03:39:06.068] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[07Aug2025 03:39:06.080] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3

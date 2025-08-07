@@ -418,3 +418,4 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [07Aug2025 02:04:06.080] [Server thread/INFO] [superlord.prehistoricfauna.common.recipes.PaleontologyTableRecipeJsonManager/]: Registered 3 jsons with items!
 [07Aug2025 02:04:18.493] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:38133] logged in with entity id 84 at (663.852170075133, 93.0, 250.3141384765957)
 [07Aug2025 02:04:18.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
+[07Aug2025 03:33:56.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Morangg) moved wrongly! 0.31184294451043115
