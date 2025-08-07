@@ -419,3 +419,25 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [07Aug2025 02:04:18.493] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:38133] logged in with entity id 84 at (663.852170075133, 93.0, 250.3141384765957)
 [07Aug2025 02:04:18.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
 [07Aug2025 03:33:56.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Morangg) moved wrongly! 0.31184294451043115
+[07Aug2025 04:21:16.839] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
+[07Aug2025 04:21:16.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg left the game
+[07Aug2025 04:21:43.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[07Aug2025 04:21:43.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Aug2025 04:21:43.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Aug2025 04:21:43.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07Aug2025 04:21:43.883] [Physics thread/INFO] [Burger Factory/]: Deleting VSPhysicsPipelineStage resources!
+[07Aug2025 04:21:43.885] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ap/]: Physics pipeline ending
+[07Aug2025 04:21:43.925] [DefaultDispatcher-worker-1/INFO] [Burger Factory/]: VSPhysicsPipelineStage is fully deleted!
+[07Aug2025 04:21:43.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:overworld
+[07Aug2025 04:21:44.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:triassic
+[07Aug2025 04:21:44.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:the_nether
+[07Aug2025 04:21:44.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:the_end
+[07Aug2025 04:21:44.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:cretaceous
+[07Aug2025 04:21:44.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:jurassic
+[07Aug2025 04:21:44.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07Aug2025 04:21:44.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (triassic): All chunks are saved
+[07Aug2025 04:21:44.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Aug2025 04:21:44.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Aug2025 04:21:44.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cretaceous): All chunks are saved
+[07Aug2025 04:21:44.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (jurassic): All chunks are saved
+[07Aug2025 04:21:44.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
