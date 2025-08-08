@@ -251,6 +251,7 @@
   "morevillagers:all_professions_traded": {
     "criteria": {
       "toolsmith": "2025-08-05 14:53:15 +0000",
+      "cleric": "2025-08-08 20:05:37 +0000",
       "fletcher": "2025-08-05 03:09:48 +0000",
       "woodworker": "2025-08-05 03:40:31 +0000",
       "librarian": "2025-08-05 14:56:39 +0000",

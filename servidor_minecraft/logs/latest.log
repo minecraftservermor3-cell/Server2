@@ -426,3 +426,32 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [08Aug2025 19:02:48.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg tried to swim in lava
 [08Aug2025 19:28:14.447] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-186, y=87, z=140} BlockPos{x=-186, y=85, z=139}
 [08Aug2025 19:55:16.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> sv
+[08Aug2025 20:11:22.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> podes acceder
+[08Aug2025 20:11:27.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> esta todo en mi ds
+[08Aug2025 20:11:43.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> el salon sagrado de los virgenes
+[08Aug2025 20:11:57.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> en este sv me dedico a conmstruir
+[08Aug2025 20:12:02.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> seee
+[08Aug2025 20:12:04.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> no
+[08Aug2025 20:12:08.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> con github
+[08Aug2025 20:12:13.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> mira esto
+[08Aug2025 20:12:18.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> ni puta idea
+[08Aug2025 20:12:29.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> no vamos al showcase?
+[08Aug2025 20:12:35.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> babtate
+[08Aug2025 20:12:54.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> Luca
+[08Aug2025 20:13:09.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> mira esto
+[08Aug2025 20:13:27.389] [Server thread/INFO] [org.valkyrienskies.eureka.util.ShipAssembler/]: Assembled ship with 162 blocks, out of 32768 allowed
+[08Aug2025 20:13:32.104] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628984650000006E7, 96.06913020818071, 257.9829394556582] -> [650.2098494209349, 98.30000001192093, 1.2290052650000006E7] returning empty list! this might break things
+[08Aug2025 20:13:37.146] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628984650000006E7, 98.0, 254.92637399584055] -> [649.3727563098073, 106.7113762490632, 1.2290052650000006E7] returning empty list! this might break things
+[08Aug2025 20:13:42.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> cerra eñ orto
+[08Aug2025 20:13:42.197] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628984650000006E7, 98.0, 254.1692961640656] -> [648.8191687911749, 106.75770892382783, 1.2290052650000006E7] returning empty list! this might break things
+[08Aug2025 20:13:47.212] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628984650000006E7, 98.0, 254.1357155888109] -> [658.9978368137942, 106.75049471444284, 1.2290052650000006E7] returning empty list! this might break things
+[08Aug2025 20:13:52.242] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628984650000006E7, 98.0, 267.08389572536817] -> [666.2318562818067, 106.74307727197883, 1.2290052650000006E7] returning empty list! this might break things
+[08Aug2025 20:13:57.246] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628984650000006E7, 98.0, 273.57683573290706] -> [662.4182684421539, 106.74249977625279, 1.2290052650000006E7] returning empty list! this might break things
+[08Aug2025 20:14:02.246] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628984650000006E7, 98.0, 273.68974812328815] -> [662.2699350584298, 106.74247221478505, 1.2290052650000006E7] returning empty list! this might break things
+[08Aug2025 20:14:07.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> ahi voy a hacer un Jurassic World
+[08Aug2025 20:14:07.298] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628984650000006E7, 98.0, 273.69117557629943] -> [662.2673756554723, 106.74248010160241, 1.2290052650000006E7] returning empty list! this might break things
+[08Aug2025 20:14:10.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> se
+[08Aug2025 20:14:12.345] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628984650000006E7, 98.0, 274.6873691049823] -> [656.19373160761, 106.7417871024712, 1.2290052650000006E7] returning empty list! this might break things
+[08Aug2025 20:14:15.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> se
+[08Aug2025 20:14:17.392] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628984650000006E7, 98.0, 269.85234318859875] -> [646.4165913723409, 105.92250043986995, 1.2290052650000006E7] returning empty list! this might break things
+[08Aug2025 20:14:22.442] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628984650000006E7, 98.0, 269.4531490774825] -> [637.9573302827775, 101.61273839376145, 1.2290052650000006E7] returning empty list! this might break things
