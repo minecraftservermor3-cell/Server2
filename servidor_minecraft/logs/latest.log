@@ -419,3 +419,5 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [08Aug2025 18:03:42.782] [Server thread/INFO] [superlord.prehistoricfauna.common.recipes.PaleontologyTableRecipeJsonManager/]: Registered 3 jsons with items!
 [08Aug2025 18:04:36.142] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:40645] logged in with entity id 82 at (674.9896852948934, 90.0, 253.4102519562098)
 [08Aug2025 18:04:36.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
+[08Aug2025 18:33:13.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [We Need to Go Deeper]
+[08Aug2025 18:33:14.639] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4306ms or 86 ticks behind
