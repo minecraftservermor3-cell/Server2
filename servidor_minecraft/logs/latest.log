@@ -425,3 +425,4 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [08Aug2025 18:58:38.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [Into Fire]
 [08Aug2025 19:02:48.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg tried to swim in lava
 [08Aug2025 19:28:14.447] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-186, y=87, z=140} BlockPos{x=-186, y=85, z=139}
+[08Aug2025 19:55:16.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> sv
