@@ -168,11 +168,13 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2025-08-08 18:56:56 +0000",
       "minecraft:skeleton": "2025-08-05 02:24:05 +0000",
       "minecraft:magma_cube": "2025-08-08 18:39:43 +0000",
       "minecraft:spider": "2025-08-05 02:38:15 +0000",
       "minecraft:creeper": "2025-08-05 02:23:20 +0000",
       "minecraft:witch": "2025-08-05 02:49:20 +0000",
+      "minecraft:wither_skeleton": "2025-08-08 18:55:02 +0000",
       "minecraft:zombie": "2025-08-05 02:15:29 +0000"
     },
     "done": false
@@ -396,9 +398,27 @@
     },
     "done": true
   },
+  "create:burner": {
+    "criteria": {
+      "0": "2025-08-08 18:56:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2025-08-08 18:33:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-08-08 18:54:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-08-08 18:58:38 +0000"
     },
     "done": true
   },
