@@ -8455,3 +8455,22 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 [09Aug2025 03:04:13.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha has made the advancement [First Trade]
 [09Aug2025 03:04:59.895] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
 [09Aug2025 03:04:59.908] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[09Aug2025 03:07:55.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha has made the advancement [We Need to Go Deeper]
+[09Aug2025 03:08:46.625] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=81, y=89, z=19} BlockPos{x=81, y=89, z=18}
+[09Aug2025 03:08:46.660] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=81, y=89, z=19} BlockPos{x=81, y=89, z=18}
+[09Aug2025 03:08:47.471] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=81, y=88, z=17} BlockPos{x=81, y=87, z=16}
+[09Aug2025 03:08:47.559] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=81, y=88, z=17} BlockPos{x=81, y=87, z=16}
+[09Aug2025 03:08:47.662] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=81, y=88, z=17} BlockPos{x=81, y=87, z=16}
+[09Aug2025 03:09:26.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> [name:"Portal", x:664, y:95, z:304, dim:minecraft:the_nether]
+[09Aug2025 03:09:59.897] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[09Aug2025 03:09:59.912] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[09Aug2025 03:10:07.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> [name:"Portal", x:83, y:95, z:38, dim:minecraft:the_nether]
+[09Aug2025 03:10:40.831] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=72, y=81, z=-13} BlockPos{x=72, y=80, z=-13}
+[09Aug2025 03:10:45.484] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=62, y=72, z=-13} BlockPos{x=62, y=71, z=-13}
+[09Aug2025 03:10:51.674] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=62, z=-20} BlockPos{x=57, y=62, z=-19}
+[09Aug2025 03:10:51.865] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=62, z=-21} BlockPos{x=57, y=61, z=-20}
+[09Aug2025 03:10:52.078] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=61, z=-22} BlockPos{x=57, y=61, z=-20}
+[09Aug2025 03:12:25.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha burned to death
+[09Aug2025 03:14:39.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha burned to death
+[09Aug2025 03:14:59.906] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[09Aug2025 03:14:59.921] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3

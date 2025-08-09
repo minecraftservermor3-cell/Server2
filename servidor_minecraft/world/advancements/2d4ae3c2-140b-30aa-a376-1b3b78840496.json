@@ -122,7 +122,8 @@
     "criteria": {
       "minecraft:skeleton": "2025-08-06 04:02:30 +0000",
       "minecraft:spider": "2025-08-06 03:12:42 +0000",
-      "minecraft:zombie": "2025-08-06 04:03:56 +0000"
+      "minecraft:zombie": "2025-08-06 04:03:56 +0000",
+      "quark:foxhound": "2025-08-09 03:14:36 +0000"
     },
     "done": false
   },
@@ -150,6 +151,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-08-09 03:07:55 +0000"
+    },
+    "done": true
+  },
   "morevillagers:first_trade": {
     "criteria": {
       "villagertrade": "2025-08-09 03:04:13 +0000"
@@ -162,6 +169,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-08-09 03:07:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2025-08-09 03:04:13 +0000"
@@ -171,7 +184,8 @@
   "morevillagers:all_professions_traded": {
     "criteria": {
       "fletcher": "2025-08-09 03:04:55 +0000",
-      "woodworker": "2025-08-09 03:04:13 +0000"
+      "woodworker": "2025-08-09 03:04:13 +0000",
+      "miner": "2025-08-09 03:07:27 +0000"
     },
     "done": false
   },
@@ -186,6 +200,12 @@
       "villagertrade": "2025-08-09 03:04:13 +0000"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2025-08-09 03:07:56 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
