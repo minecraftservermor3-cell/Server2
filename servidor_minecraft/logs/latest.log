@@ -826,3 +826,41 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 [09Aug2025 05:03:54.857] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=771, y=69, z=398} BlockPos{x=773, y=67, z=399}
 [09Aug2025 05:03:54.927] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=771, y=69, z=398} BlockPos{x=773, y=67, z=399}
 [09Aug2025 05:03:54.958] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=771, y=69, z=398} BlockPos{x=773, y=67, z=399}
+[09Aug2025 05:08:41.213] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=712, y=65, z=122} BlockPos{x=713, y=63, z=123}
+[09Aug2025 05:09:22.816] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=820, y=73, z=251} BlockPos{x=822, y=71, z=252}
+[09Aug2025 05:09:22.861] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=820, y=73, z=251} BlockPos{x=822, y=71, z=252}
+[09Aug2025 05:09:53.436] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=850, y=70, z=318} BlockPos{x=850, y=69, z=317}
+[09Aug2025 05:10:19.068] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=896, y=72, z=320} BlockPos{x=897, y=70, z=322}
+[09Aug2025 05:10:57.561] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=871, y=73, z=351} BlockPos{x=870, y=71, z=350}
+[09Aug2025 05:11:10.667] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=877, y=72, z=329} BlockPos{x=879, y=70, z=329}
+[09Aug2025 05:11:41.057] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=883, y=72, z=323} BlockPos{x=884, y=71, z=321}
+[09Aug2025 05:11:41.115] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=883, y=72, z=323} BlockPos{x=884, y=71, z=321}
+[09Aug2025 05:11:41.265] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=882, y=72, z=323} BlockPos{x=881, y=70, z=323}
+[09Aug2025 05:11:41.966] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=880, y=72, z=326} BlockPos{x=879, y=70, z=327}
+[09Aug2025 05:13:00.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> ya me voy a dormir yo
+[09Aug2025 05:13:04.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> apago el sv
+[09Aug2025 05:13:16.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> mañana sigp
+[09Aug2025 05:13:49.262] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
+[09Aug2025 05:13:49.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg left the game
+[09Aug2025 05:14:15.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[09Aug2025 05:14:15.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[09Aug2025 05:14:15.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[09Aug2025 05:14:15.102] [Physics thread/INFO] [Burger Factory/]: Deleting VSPhysicsPipelineStage resources!
+[09Aug2025 05:14:15.105] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ap/]: Physics pipeline ending
+[09Aug2025 05:14:15.120] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: natasha lost connection: Disconnected
+[09Aug2025 05:14:15.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha left the game
+[09Aug2025 05:14:15.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[09Aug2025 05:14:15.182] [DefaultDispatcher-worker-4/INFO] [Burger Factory/]: VSPhysicsPipelineStage is fully deleted!
+[09Aug2025 05:14:15.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:overworld
+[09Aug2025 05:14:15.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:the_nether
+[09Aug2025 05:14:15.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:cretaceous
+[09Aug2025 05:14:15.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:the_end
+[09Aug2025 05:14:15.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:triassic
+[09Aug2025 05:14:15.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:jurassic
+[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cretaceous): All chunks are saved
+[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (triassic): All chunks are saved
+[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (jurassic): All chunks are saved
+[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
