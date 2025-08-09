@@ -420,3 +420,19 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [09Aug2025 15:13:43.874] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
 [09Aug2025 15:13:58.475] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:59153] logged in with entity id 79 at (673.3338258713741, 90.0, 298.76324827284395)
 [09Aug2025 15:13:58.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
+[09Aug2025 16:08:12.026] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@80d0bed[id=<null>,name=Kreeex,properties={},legacy=false] (/127.130.50.75:36571) lost connection: Disconnected
+[09Aug2025 16:09:08.973] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kreeex[/127.130.50.75:54391] logged in with entity id 11004 at (8.5, 66.0, -5.5)
+[09Aug2025 16:09:08.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kreeex joined the game
+[09Aug2025 16:09:08.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kreeex has made the advancement [Welcome To Jurassic Additions]
+[09Aug2025 16:10:26.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> [name:"Base Create", x:671, y:94, z:242, dim:minecraft:overworld]
+[09Aug2025 16:10:54.129] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kreeex lost connection: Disconnected
+[09Aug2025 16:10:54.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kreeex left the game
+[09Aug2025 16:10:54.188] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[09Aug2025 16:11:08.632] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kreeex[/127.130.50.75:35817] logged in with entity id 11621 at (8.5, 66.0, -5.5)
+[09Aug2025 16:11:08.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kreeex joined the game
+[09Aug2025 16:14:05.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> [name:"Base Create", x:671, y:94, z:242, dim:minecraft:overworld]
+[09Aug2025 16:18:26.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kreeex has made the advancement [Acquire Hardware]
+[09Aug2025 16:18:36.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kreeex has made the advancement [Suit Up]
+[09Aug2025 16:20:23.883] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of Morangg) moved wrongly! 0.3700419597300879
+[09Aug2025 16:20:27.351] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of Morangg) moved wrongly! 0.2981725341646211
+[09Aug2025 16:22:48.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kreeex has made the advancement [Take Aim]
