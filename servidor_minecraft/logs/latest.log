@@ -698,3 +698,4 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[09Aug2025 02:13:24.199] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=680, y=89, z=290} BlockPos{x=680, y=88, z=290}
