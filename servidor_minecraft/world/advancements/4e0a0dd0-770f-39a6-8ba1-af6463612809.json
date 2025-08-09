@@ -403,27 +403,9 @@
     },
     "done": true
   },
-  "create:burner": {
-    "criteria": {
-      "0": "2025-08-08 18:56:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2025-08-08 18:33:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "fortress": "2025-08-08 18:54:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2025-08-08 18:58:38 +0000"
     },
     "done": true
   },
@@ -434,6 +416,24 @@
       "minecraft:soul_sand_valley": "2025-08-08 18:38:47 +0000"
     },
     "done": false
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-08-08 18:54:19 +0000"
+    },
+    "done": true
+  },
+  "create:burner": {
+    "criteria": {
+      "0": "2025-08-08 18:56:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-08-08 18:58:38 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
