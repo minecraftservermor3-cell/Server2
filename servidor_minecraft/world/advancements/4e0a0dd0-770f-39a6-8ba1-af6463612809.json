@@ -455,12 +455,6 @@
     },
     "done": true
   },
-  "create:wrench_goggles": {
-    "criteria": {
-      "0": "2025-08-09 15:59:05 +0000"
-    },
-    "done": false
-  },
   "create:rose_quartz": {
     "criteria": {
       "0": "2025-08-09 15:32:26 +0000"
@@ -472,6 +466,12 @@
       "0": "2025-08-09 15:35:11 +0000"
     },
     "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2025-08-09 15:59:05 +0000"
+    },
+    "done": false
   },
   "create:track_0": {
     "criteria": {
