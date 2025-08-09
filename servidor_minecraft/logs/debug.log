@@ -7978,3 +7978,14 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [09Aug2025 15:23:43.677] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
 [09Aug2025 15:28:43.655] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
 [09Aug2025 15:28:43.728] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[09Aug2025 15:33:43.655] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[09Aug2025 15:33:43.669] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[09Aug2025 15:35:09.920] [Server thread/DEBUG] [mixin/]: Mixing mod_compat.create.IMixinDeployerHandler from valkyrienskies-common.mixins.json into com.simibubi.create.content.kinetics.deployer.DeployerHandler
+[09Aug2025 15:35:09.920] [Server thread/DEBUG] [mixin/]: Renaming @Invoker method invokeShouldActivate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z to invokeShouldActivate_$md$84e1ef$0 in valkyrienskies-common.mixins.json:mod_compat.create.IMixinDeployerHandler
+[09Aug2025 15:35:12.568] [Server thread/DEBUG] [mixin/]: Mixing mod_compat.create.MixinBeltMovementHandler from valkyrienskies-common.mixins.json into com.simibubi.create.content.kinetics.belt.transport.BeltMovementHandler
+[09Aug2025 15:38:43.654] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[09Aug2025 15:38:43.668] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[09Aug2025 15:43:43.656] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[09Aug2025 15:43:43.669] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[09Aug2025 15:48:43.657] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[09Aug2025 15:48:43.670] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
