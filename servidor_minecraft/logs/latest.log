@@ -1,292 +1,289 @@
-[09Aug2025 01:14:03.282] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[09Aug2025 01:14:03.287] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[09Aug2025 01:14:04.596] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[09Aug2025 01:14:04.649] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[09Aug2025 01:14:05.008] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[09Aug2025 01:14:05.009] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09Aug2025 01:14:05.011] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09Aug2025 01:14:05.013] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09Aug2025 01:14:05.573] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 33 dependencies adding them to mods collection
-[09Aug2025 01:14:07.726] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[09Aug2025 01:14:07.845] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[09Aug2025 01:14:08.032] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 79 options available, 0 override(s) found
-[09Aug2025 01:14:08.043] [main/WARN] [mixin/]: Reference map 'morevillagers-forge-forge-refmap.json' for morevillagers.mixins.json could not be read. If this is a development environment you can ignore this message
-[09Aug2025 01:14:08.103] [main/WARN] [mixin/]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
-[09Aug2025 01:14:08.107] [main/WARN] [mixin/]: Reference map 'mixins.trackwork.refmap.json' for trackwork.mixins.json could not be read. If this is a development environment you can ignore this message
-[09Aug2025 01:14:09.151] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
-[09Aug2025 01:14:09.152] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
-[09Aug2025 01:14:09.152] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found mixins.prehistoricfauna.json:GuiMixin
-[09Aug2025 01:14:09.433] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
-[09Aug2025 01:14:09.433] [main/WARN] [mixin/]: @Mixin target noobanidus.mods.lootr.config.ConfigManager was not found quark_integrations.mixins.json:lootr.ConfigManagerMixin
-[09Aug2025 01:14:09.629] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/client/render/CustomLecternRenderer (java.lang.ClassNotFoundException: dan200.computercraft.client.render.CustomLecternRenderer)
-[09Aug2025 01:14:09.631] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/peripheral/speaker/SpeakerPosition (java.lang.ClassNotFoundException: dan200.computercraft.shared.peripheral.speaker.SpeakerPosition)
-[09Aug2025 01:14:09.633] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/turtle/core/TurtleBrain (java.lang.ClassNotFoundException: dan200.computercraft.shared.turtle.core.TurtleBrain)
-[09Aug2025 01:14:09.635] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/turtle/core/TurtleMoveCommand (java.lang.ClassNotFoundException: dan200.computercraft.shared.turtle.core.TurtleMoveCommand)
-[09Aug2025 01:14:09.640] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/peripheral/modem/wireless/WirelessNetwork (java.lang.ClassNotFoundException: dan200.computercraft.shared.peripheral.modem.wireless.WirelessNetwork)
-[09Aug2025 01:14:09.710] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/munitions/AbstractCannonProjectile (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.munitions.AbstractCannonProjectile)
-[09Aug2025 01:14:09.713] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/utils/CBCUtils (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.utils.CBCUtils)
-[09Aug2025 01:14:09.715] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/cannon_control/fixed_cannon_mount/FixedCannonMountBlockEntity$FixedCannonMountScrollValueBehaviour (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.cannon_control.fixed_cannon_mount.FixedCannonMountBlockEntity$FixedCannonMountScrollValueBehaviour)
-[09Aug2025 01:14:09.716] [main/WARN] [mixin/]: @Mixin target rbasamoyai.createbigcannons.cannon_control.fixed_cannon_mount.FixedCannonMountBlockEntity$FixedCannonMountScrollValueBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create_big_cannons.MixinFCMSVB
-[09Aug2025 01:14:09.718] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.cannon_control.contraption.PitchOrientedContraptionEntity)
-[09Aug2025 01:14:09.720] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/network/ServerboundSetFixedCannonMountValuePacket (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.network.ServerboundSetFixedCannonMountValuePacket)
-[09Aug2025 01:14:09.723] [main/WARN] [mixin/]: @Mixin target rbasamoyai.createbigcannons.network.ServerboundSetFixedCannonMountValuePacket was not found valkyrienskies-common.mixins.json:mod_compat.create_big_cannons.MixinSSFCMVP
-[09Aug2025 01:14:09.728] [main/WARN] [mixin/]: Error loading class: dev/ftb/mods/ftbchunks/data/ClaimedChunkManagerImpl (java.lang.ClassNotFoundException: dev.ftb.mods.ftbchunks.data.ClaimedChunkManagerImpl)
-[09Aug2025 01:14:09.734] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
-[09Aug2025 01:14:09.737] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
-[09Aug2025 01:14:09.766] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
-[09Aug2025 01:14:09.769] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
-[09Aug2025 01:14:09.771] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
-[09Aug2025 01:14:09.774] [main/WARN] [mixin/]: Error loading class: dev/su5ed/mffs/util/FrequencyGrid (java.lang.ClassNotFoundException: dev.su5ed.mffs.util.FrequencyGrid)
-[09Aug2025 01:14:09.776] [main/WARN] [mixin/]: Error loading class: dev/su5ed/mffs/network/ClientPacketHandler (java.lang.ClassNotFoundException: dev.su5ed.mffs.network.ClientPacketHandler)
-[09Aug2025 01:14:09.780] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
-[09Aug2025 01:14:09.879] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/VertexFormat$Mode for invalid dist DEDICATED_SERVER
-[09Aug2025 01:14:09.879] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/vertex/VertexFormat$Mode (java.lang.RuntimeException: Attempted to load class com/mojang/blaze3d/vertex/VertexFormat$Mode for invalid dist DEDICATED_SERVER)
-[09Aug2025 01:14:09.979] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[09Aug2025 01:14:16.587] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/]: Kiwi Customization is enabled
-[09Aug2025 01:14:16.812] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/INIT]: Processing 6 KiwiModule annotations
-[09Aug2025 01:14:17.130] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[09Aug2025 01:14:17.130] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[09Aug2025 01:14:17.952] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
-[09Aug2025 01:14:18.563] [modloading-worker-0/INFO] [zeta/]: Doing super early config setup for zeta
-[09Aug2025 01:14:18.664] [modloading-worker-0/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock::handler$zkn000$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[09Aug2025 01:14:18.782] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[09Aug2025 01:14:19.202] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
-[09Aug2025 01:14:19.202] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
-[09Aug2025 01:14:19.215] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
-[09Aug2025 01:14:19.215] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
-[09Aug2025 01:14:19.216] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
-[09Aug2025 01:14:19.238] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
-[09Aug2025 01:14:19.258] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
-[09Aug2025 01:14:19.260] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
-[09Aug2025 01:14:19.260] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
-[09Aug2025 01:14:19.261] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
-[09Aug2025 01:14:19.266] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
-[09Aug2025 01:14:19.268] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
-[09Aug2025 01:14:19.268] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
-[09Aug2025 01:14:19.279] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
-[09Aug2025 01:14:19.280] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
-[09Aug2025 01:14:19.280] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
-[09Aug2025 01:14:19.297] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
-[09Aug2025 01:14:19.309] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
-[09Aug2025 01:14:19.315] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
-[09Aug2025 01:14:19.316] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
-[09Aug2025 01:14:19.317] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
-[09Aug2025 01:14:19.323] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
-[09Aug2025 01:14:19.323] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
-[09Aug2025 01:14:19.324] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
-[09Aug2025 01:14:19.326] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
-[09Aug2025 01:14:19.330] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
-[09Aug2025 01:14:19.334] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
-[09Aug2025 01:14:19.334] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
-[09Aug2025 01:14:19.340] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
-[09Aug2025 01:14:19.341] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
-[09Aug2025 01:14:19.343] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
-[09Aug2025 01:14:19.343] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
-[09Aug2025 01:14:19.366] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
-[09Aug2025 01:14:19.367] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
-[09Aug2025 01:14:19.369] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
-[09Aug2025 01:14:19.370] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
-[09Aug2025 01:14:19.373] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
-[09Aug2025 01:14:19.373] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
-[09Aug2025 01:14:19.374] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
-[09Aug2025 01:14:19.375] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
-[09Aug2025 01:14:19.376] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
-[09Aug2025 01:14:19.378] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
-[09Aug2025 01:14:19.379] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
-[09Aug2025 01:14:19.380] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
-[09Aug2025 01:14:19.382] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
-[09Aug2025 01:14:19.382] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
-[09Aug2025 01:14:19.387] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
-[09Aug2025 01:14:19.400] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
-[09Aug2025 01:14:19.411] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
-[09Aug2025 01:14:19.411] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
-[09Aug2025 01:14:19.412] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
-[09Aug2025 01:14:19.418] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
-[09Aug2025 01:14:19.422] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
-[09Aug2025 01:14:19.430] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
-[09Aug2025 01:14:19.448] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
-[09Aug2025 01:14:19.454] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
-[09Aug2025 01:14:19.455] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
-[09Aug2025 01:14:19.456] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
-[09Aug2025 01:14:19.461] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
-[09Aug2025 01:14:19.465] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
-[09Aug2025 01:14:19.493] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
-[09Aug2025 01:14:19.497] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
-[09Aug2025 01:14:19.499] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
-[09Aug2025 01:14:19.500] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
-[09Aug2025 01:14:19.504] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
-[09Aug2025 01:14:19.516] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
-[09Aug2025 01:14:19.518] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
-[09Aug2025 01:14:19.523] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
-[09Aug2025 01:14:19.524] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
-[09Aug2025 01:14:19.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
-[09Aug2025 01:14:19.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
-[09Aug2025 01:14:19.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
-[09Aug2025 01:14:19.526] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
-[09Aug2025 01:14:19.531] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
-[09Aug2025 01:14:19.533] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
-[09Aug2025 01:14:19.534] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
-[09Aug2025 01:14:19.543] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
-[09Aug2025 01:14:19.544] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
-[09Aug2025 01:14:19.544] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
-[09Aug2025 01:14:19.553] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
-[09Aug2025 01:14:19.553] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
-[09Aug2025 01:14:19.558] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
-[09Aug2025 01:14:19.559] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
-[09Aug2025 01:14:19.561] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
-[09Aug2025 01:14:19.572] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
-[09Aug2025 01:14:19.589] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
-[09Aug2025 01:14:19.589] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
-[09Aug2025 01:14:19.590] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
-[09Aug2025 01:14:19.590] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
-[09Aug2025 01:14:19.599] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
-[09Aug2025 01:14:19.600] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
-[09Aug2025 01:14:19.600] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
-[09Aug2025 01:14:19.600] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
-[09Aug2025 01:14:19.601] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
-[09Aug2025 01:14:19.601] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
-[09Aug2025 01:14:19.602] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
-[09Aug2025 01:14:19.602] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
-[09Aug2025 01:14:19.602] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
-[09Aug2025 01:14:19.610] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
-[09Aug2025 01:14:19.615] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
-[09Aug2025 01:14:19.615] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
-[09Aug2025 01:14:19.615] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
-[09Aug2025 01:14:19.616] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
-[09Aug2025 01:14:19.618] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
-[09Aug2025 01:14:19.619] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
-[09Aug2025 01:14:19.620] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
-[09Aug2025 01:14:19.626] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
-[09Aug2025 01:14:19.626] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
-[09Aug2025 01:14:19.627] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
-[09Aug2025 01:14:19.638] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
-[09Aug2025 01:14:19.639] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
-[09Aug2025 01:14:19.648] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
-[09Aug2025 01:14:19.649] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
-[09Aug2025 01:14:19.652] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
-[09Aug2025 01:14:19.652] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
-[09Aug2025 01:14:19.652] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
-[09Aug2025 01:14:19.653] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
-[09Aug2025 01:14:19.654] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
-[09Aug2025 01:14:19.657] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
-[09Aug2025 01:14:19.657] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
-[09Aug2025 01:14:19.661] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
-[09Aug2025 01:14:19.662] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
-[09Aug2025 01:14:19.665] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
-[09Aug2025 01:14:19.671] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
-[09Aug2025 01:14:19.688] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
-[09Aug2025 01:14:19.699] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
-[09Aug2025 01:14:19.699] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
-[09Aug2025 01:14:19.700] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
-[09Aug2025 01:14:19.701] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
-[09Aug2025 01:14:19.708] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
-[09Aug2025 01:14:19.717] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
-[09Aug2025 01:14:19.718] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
-[09Aug2025 01:14:19.719] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
-[09Aug2025 01:14:19.721] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
-[09Aug2025 01:14:19.721] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
-[09Aug2025 01:14:19.724] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
-[09Aug2025 01:14:19.727] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
-[09Aug2025 01:14:19.731] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
-[09Aug2025 01:14:19.736] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
-[09Aug2025 01:14:19.743] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
-[09Aug2025 01:14:19.745] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
-[09Aug2025 01:14:19.750] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
-[09Aug2025 01:14:19.754] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
-[09Aug2025 01:14:19.760] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
-[09Aug2025 01:14:19.763] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
-[09Aug2025 01:14:19.765] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
-[09Aug2025 01:14:19.770] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
-[09Aug2025 01:14:19.772] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
-[09Aug2025 01:14:19.772] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
-[09Aug2025 01:14:19.774] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
-[09Aug2025 01:14:19.776] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
-[09Aug2025 01:14:19.779] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
-[09Aug2025 01:14:19.808] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
-[09Aug2025 01:14:19.827] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
-[09Aug2025 01:14:19.829] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
-[09Aug2025 01:14:19.831] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
-[09Aug2025 01:14:19.834] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
-[09Aug2025 01:14:19.848] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
-[09Aug2025 01:14:19.851] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
-[09Aug2025 01:14:19.856] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
-[09Aug2025 01:14:19.856] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
-[09Aug2025 01:14:19.863] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
-[09Aug2025 01:14:19.864] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
-[09Aug2025 01:14:19.865] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
-[09Aug2025 01:14:19.870] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
-[09Aug2025 01:14:19.879] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
-[09Aug2025 01:14:20.104] [modloading-worker-0/INFO] [quark-zeta/]: Doing super early config setup for quark
-[09Aug2025 01:14:21.542] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [xkdeco:entity_types] initialized
-[09Aug2025 01:14:21.545] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		block_entity_type: 5
-[09Aug2025 01:14:21.546] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:block_templates] initialized
-[09Aug2025 01:14:21.546] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		kiwi:block_template: 2
-[09Aug2025 01:14:21.547] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:block_components] initialized
-[09Aug2025 01:14:21.547] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		kiwi:block_component: 10
-[09Aug2025 01:14:21.548] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:data] initialized
-[09Aug2025 01:14:21.548] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		recipe_serializer: 3
-[09Aug2025 01:14:21.549] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:item_templates] initialized
-[09Aug2025 01:14:21.549] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		kiwi:item_template: 3
-[09Aug2025 01:14:24.787] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/ebony_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
-[09Aug2025 01:14:24.797] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/full_glass_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
-[09Aug2025 01:14:24.799] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/glass_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
-[09Aug2025 01:14:24.966] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/iron_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
-[09Aug2025 01:14:24.974] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/mahogany_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
-[09Aug2025 01:14:25.005] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/varnished_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
-[09Aug2025 01:14:25.024] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_big_table is not registered
-[09Aug2025 01:14:25.059] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
-[09Aug2025 01:14:25.071] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
-[09Aug2025 01:14:25.092] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_awning_window is not registered
-[09Aug2025 01:14:25.108] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_awning_window is not registered
-[09Aug2025 01:14:25.276] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_desk is not registered
-[09Aug2025 01:14:25.277] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
-[09Aug2025 01:14:25.294] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_table is not registered
-[09Aug2025 01:14:25.308] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roofed_lamp is not registered
-[09Aug2025 01:14:25.327] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_desk is not registered
-[09Aug2025 01:14:25.329] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_window is not registered
-[09Aug2025 01:14:25.331] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_awning_window is not registered
-[09Aug2025 01:14:25.340] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
-[09Aug2025 01:14:25.352] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_desk is not registered
-[09Aug2025 01:14:25.354] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_big_table is not registered
-[09Aug2025 01:14:25.355] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_table is not registered
-[09Aug2025 01:14:25.358] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_window is not registered
-[09Aug2025 01:14:25.367] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_window is not registered
-[09Aug2025 01:14:25.390] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_big_table is not registered
-[09Aug2025 01:14:25.435] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
-[09Aug2025 01:14:25.459] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_table is not registered
-[09Aug2025 01:14:25.475] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
-[09Aug2025 01:14:27.824] [Thread-1/INFO] [zeta/]: About to refresh zeta's config, looking for better thread than 'Thread-1'...
-[09Aug2025 01:14:27.824] [Thread-1/WARN] [zeta/]: Using thread 'Thread-1' instead of the server thread
-[09Aug2025 01:14:27.825] [Thread-1/INFO] [zeta/]: zeta's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-1
-[09Aug2025 01:14:27.825] [Thread-1/INFO] [zeta/]: About to refresh zeta's config, looking for better thread than 'Thread-1'...
-[09Aug2025 01:14:27.825] [Thread-1/WARN] [zeta/]: Using thread 'Thread-1' instead of the server thread
-[09Aug2025 01:14:27.826] [Thread-1/INFO] [zeta/]: zeta's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-1
-[09Aug2025 01:14:27.857] [Thread-1/INFO] [quark-zeta/]: About to refresh quark's config, looking for better thread than 'Thread-1'...
-[09Aug2025 01:14:27.858] [Thread-1/WARN] [quark-zeta/]: Using thread 'Thread-1' instead of the server thread
-[09Aug2025 01:14:27.858] [Thread-1/INFO] [quark-zeta/]: quark's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-1
-[09Aug2025 01:14:27.866] [Thread-1/INFO] [quark-zeta/]: About to refresh quark's config, looking for better thread than 'Thread-1'...
-[09Aug2025 01:14:27.867] [Thread-1/WARN] [quark-zeta/]: Using thread 'Thread-1' instead of the server thread
-[09Aug2025 01:14:27.867] [Thread-1/INFO] [quark-zeta/]: quark's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-1
-[09Aug2025 01:14:27.871] [Thread-1/INFO] [quark-zeta/]: About to refresh quark's config, looking for better thread than 'Thread-1'...
-[09Aug2025 01:14:27.871] [Thread-1/WARN] [quark-zeta/]: Using thread 'Thread-1' instead of the server thread
-[09Aug2025 01:14:27.871] [Thread-1/INFO] [quark-zeta/]: quark's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-1
-[09Aug2025 01:14:28.021] [main/INFO] [zeta/]: Common setup: Performing initial refresh of zeta's config on thread 'main'
-[09Aug2025 01:14:28.022] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
-[09Aug2025 01:14:28.023] [main/INFO] [zeta/]: Waiting for server start before accepting filewatcher changes to zeta's config
-[09Aug2025 01:14:28.082] [main/INFO] [quark-zeta/]: Common setup: Performing initial refresh of quark's config on thread 'main'
-[09Aug2025 01:14:28.104] [main/INFO] [quark-zeta/]: Waiting for server start before accepting filewatcher changes to quark's config
-[09Aug2025 01:14:28.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Starting version check at https://raw.githubusercontent.com/copycats-plus/copycats/multiloader/update.json
-[09Aug2025 01:14:28.434] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Found status: AHEAD Current: 2.2.2+mc.1.20.1-forge Target: null
-[09Aug2025 01:14:28.434] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[09Aug2025 01:14:28.766] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[09Aug2025 01:14:28.766] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
-[09Aug2025 01:14:29.687] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.33 Target: 1.20.1-1.1.35
-[09Aug2025 01:14:29.690] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[09Aug2025 01:14:29.921] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[09Aug2025 01:14:34.331] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09Aug2025 01:14:39.262] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
-[09Aug2025 01:14:39.263] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
-[09Aug2025 01:14:41.577] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe jurassic_additions:tranquilizer_gun_recipe
+[09Aug2025 15:12:45.399] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[09Aug2025 15:12:45.402] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[09Aug2025 15:12:46.555] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[09Aug2025 15:12:46.612] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[09Aug2025 15:12:47.015] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[09Aug2025 15:12:47.016] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[09Aug2025 15:12:47.017] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[09Aug2025 15:12:47.019] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[09Aug2025 15:12:47.635] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 33 dependencies adding them to mods collection
+[09Aug2025 15:12:49.641] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[09Aug2025 15:12:49.736] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[09Aug2025 15:12:49.879] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 79 options available, 0 override(s) found
+[09Aug2025 15:12:49.890] [main/WARN] [mixin/]: Reference map 'morevillagers-forge-forge-refmap.json' for morevillagers.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Aug2025 15:12:49.946] [main/WARN] [mixin/]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Aug2025 15:12:49.949] [main/WARN] [mixin/]: Reference map 'mixins.trackwork.refmap.json' for trackwork.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Aug2025 15:12:50.794] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
+[09Aug2025 15:12:50.795] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
+[09Aug2025 15:12:50.795] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found mixins.prehistoricfauna.json:GuiMixin
+[09Aug2025 15:12:51.049] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[09Aug2025 15:12:51.049] [main/WARN] [mixin/]: @Mixin target noobanidus.mods.lootr.config.ConfigManager was not found quark_integrations.mixins.json:lootr.ConfigManagerMixin
+[09Aug2025 15:12:51.295] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/client/render/CustomLecternRenderer (java.lang.ClassNotFoundException: dan200.computercraft.client.render.CustomLecternRenderer)
+[09Aug2025 15:12:51.297] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/peripheral/speaker/SpeakerPosition (java.lang.ClassNotFoundException: dan200.computercraft.shared.peripheral.speaker.SpeakerPosition)
+[09Aug2025 15:12:51.298] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/turtle/core/TurtleBrain (java.lang.ClassNotFoundException: dan200.computercraft.shared.turtle.core.TurtleBrain)
+[09Aug2025 15:12:51.300] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/turtle/core/TurtleMoveCommand (java.lang.ClassNotFoundException: dan200.computercraft.shared.turtle.core.TurtleMoveCommand)
+[09Aug2025 15:12:51.301] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/peripheral/modem/wireless/WirelessNetwork (java.lang.ClassNotFoundException: dan200.computercraft.shared.peripheral.modem.wireless.WirelessNetwork)
+[09Aug2025 15:12:51.357] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/munitions/AbstractCannonProjectile (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.munitions.AbstractCannonProjectile)
+[09Aug2025 15:12:51.359] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/utils/CBCUtils (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.utils.CBCUtils)
+[09Aug2025 15:12:51.361] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/cannon_control/fixed_cannon_mount/FixedCannonMountBlockEntity$FixedCannonMountScrollValueBehaviour (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.cannon_control.fixed_cannon_mount.FixedCannonMountBlockEntity$FixedCannonMountScrollValueBehaviour)
+[09Aug2025 15:12:51.361] [main/WARN] [mixin/]: @Mixin target rbasamoyai.createbigcannons.cannon_control.fixed_cannon_mount.FixedCannonMountBlockEntity$FixedCannonMountScrollValueBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create_big_cannons.MixinFCMSVB
+[09Aug2025 15:12:51.363] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.cannon_control.contraption.PitchOrientedContraptionEntity)
+[09Aug2025 15:12:51.364] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/network/ServerboundSetFixedCannonMountValuePacket (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.network.ServerboundSetFixedCannonMountValuePacket)
+[09Aug2025 15:12:51.364] [main/WARN] [mixin/]: @Mixin target rbasamoyai.createbigcannons.network.ServerboundSetFixedCannonMountValuePacket was not found valkyrienskies-common.mixins.json:mod_compat.create_big_cannons.MixinSSFCMVP
+[09Aug2025 15:12:51.367] [main/WARN] [mixin/]: Error loading class: dev/ftb/mods/ftbchunks/data/ClaimedChunkManagerImpl (java.lang.ClassNotFoundException: dev.ftb.mods.ftbchunks.data.ClaimedChunkManagerImpl)
+[09Aug2025 15:12:51.369] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
+[09Aug2025 15:12:51.371] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
+[09Aug2025 15:12:51.400] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
+[09Aug2025 15:12:51.402] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
+[09Aug2025 15:12:51.404] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[09Aug2025 15:12:51.406] [main/WARN] [mixin/]: Error loading class: dev/su5ed/mffs/util/FrequencyGrid (java.lang.ClassNotFoundException: dev.su5ed.mffs.util.FrequencyGrid)
+[09Aug2025 15:12:51.409] [main/WARN] [mixin/]: Error loading class: dev/su5ed/mffs/network/ClientPacketHandler (java.lang.ClassNotFoundException: dev.su5ed.mffs.network.ClientPacketHandler)
+[09Aug2025 15:12:51.411] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
+[09Aug2025 15:12:51.504] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/VertexFormat$Mode for invalid dist DEDICATED_SERVER
+[09Aug2025 15:12:51.504] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/vertex/VertexFormat$Mode (java.lang.RuntimeException: Attempted to load class com/mojang/blaze3d/vertex/VertexFormat$Mode for invalid dist DEDICATED_SERVER)
+[09Aug2025 15:12:51.586] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[09Aug2025 15:12:58.072] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/]: Kiwi Customization is enabled
+[09Aug2025 15:12:58.268] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/INIT]: Processing 6 KiwiModule annotations
+[09Aug2025 15:12:58.526] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[09Aug2025 15:12:58.526] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[09Aug2025 15:12:58.948] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
+[09Aug2025 15:12:59.420] [modloading-worker-0/INFO] [zeta/]: Doing super early config setup for zeta
+[09Aug2025 15:12:59.591] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[09Aug2025 15:12:59.699] [modloading-worker-0/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock::handler$zkn000$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[09Aug2025 15:13:00.056] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
+[09Aug2025 15:13:00.065] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[09Aug2025 15:13:00.074] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[09Aug2025 15:13:00.079] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[09Aug2025 15:13:00.080] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[09Aug2025 15:13:00.100] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[09Aug2025 15:13:00.124] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[09Aug2025 15:13:00.128] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[09Aug2025 15:13:00.131] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[09Aug2025 15:13:00.132] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[09Aug2025 15:13:00.139] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[09Aug2025 15:13:00.140] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[09Aug2025 15:13:00.140] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[09Aug2025 15:13:00.150] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[09Aug2025 15:13:00.151] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[09Aug2025 15:13:00.151] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[09Aug2025 15:13:00.169] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[09Aug2025 15:13:00.174] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[09Aug2025 15:13:00.176] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[09Aug2025 15:13:00.179] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[09Aug2025 15:13:00.180] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[09Aug2025 15:13:00.188] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[09Aug2025 15:13:00.188] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[09Aug2025 15:13:00.189] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[09Aug2025 15:13:00.189] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[09Aug2025 15:13:00.208] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[09Aug2025 15:13:00.209] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[09Aug2025 15:13:00.210] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[09Aug2025 15:13:00.215] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[09Aug2025 15:13:00.216] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[09Aug2025 15:13:00.217] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[09Aug2025 15:13:00.220] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[09Aug2025 15:13:00.258] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[09Aug2025 15:13:00.264] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[09Aug2025 15:13:00.265] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[09Aug2025 15:13:00.270] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[09Aug2025 15:13:00.270] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[09Aug2025 15:13:00.271] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[09Aug2025 15:13:00.272] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[09Aug2025 15:13:00.272] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[09Aug2025 15:13:00.274] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[09Aug2025 15:13:00.276] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[09Aug2025 15:13:00.277] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[09Aug2025 15:13:00.278] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[09Aug2025 15:13:00.279] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[09Aug2025 15:13:00.279] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[09Aug2025 15:13:00.280] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[09Aug2025 15:13:00.282] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[09Aug2025 15:13:00.283] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[09Aug2025 15:13:00.284] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[09Aug2025 15:13:00.285] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[09Aug2025 15:13:00.286] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[09Aug2025 15:13:00.302] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[09Aug2025 15:13:00.304] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[09Aug2025 15:13:00.323] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[09Aug2025 15:13:00.327] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[09Aug2025 15:13:00.332] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[09Aug2025 15:13:00.335] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[09Aug2025 15:13:00.346] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[09Aug2025 15:13:00.349] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[09Aug2025 15:13:00.379] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[09Aug2025 15:13:00.384] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[09Aug2025 15:13:00.386] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[09Aug2025 15:13:00.388] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[09Aug2025 15:13:00.397] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[09Aug2025 15:13:00.401] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[09Aug2025 15:13:00.406] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[09Aug2025 15:13:00.407] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[09Aug2025 15:13:00.408] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[09Aug2025 15:13:00.410] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[09Aug2025 15:13:00.413] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[09Aug2025 15:13:00.415] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[09Aug2025 15:13:00.415] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[09Aug2025 15:13:00.418] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[09Aug2025 15:13:00.421] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[09Aug2025 15:13:00.425] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[09Aug2025 15:13:00.440] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[09Aug2025 15:13:00.440] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[09Aug2025 15:13:00.441] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[09Aug2025 15:13:00.441] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[09Aug2025 15:13:00.443] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[09Aug2025 15:13:00.443] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[09Aug2025 15:13:00.444] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[09Aug2025 15:13:00.450] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[09Aug2025 15:13:00.451] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[09Aug2025 15:13:00.464] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[09Aug2025 15:13:00.466] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[09Aug2025 15:13:00.468] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[09Aug2025 15:13:00.468] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[09Aug2025 15:13:00.469] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[09Aug2025 15:13:00.473] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[09Aug2025 15:13:00.474] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[09Aug2025 15:13:00.475] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[09Aug2025 15:13:00.478] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[09Aug2025 15:13:00.478] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
+[09Aug2025 15:13:00.479] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[09Aug2025 15:13:00.486] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[09Aug2025 15:13:00.487] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[09Aug2025 15:13:00.488] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[09Aug2025 15:13:00.498] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[09Aug2025 15:13:00.503] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[09Aug2025 15:13:00.504] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[09Aug2025 15:13:00.506] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[09Aug2025 15:13:00.507] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[09Aug2025 15:13:00.509] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[09Aug2025 15:13:00.514] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[09Aug2025 15:13:00.519] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[09Aug2025 15:13:00.527] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[09Aug2025 15:13:00.536] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[09Aug2025 15:13:00.541] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[09Aug2025 15:13:00.541] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[09Aug2025 15:13:00.544] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[09Aug2025 15:13:00.545] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[09Aug2025 15:13:00.545] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[09Aug2025 15:13:00.549] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[09Aug2025 15:13:00.549] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[09Aug2025 15:13:00.550] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[09Aug2025 15:13:00.565] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[09Aug2025 15:13:00.567] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[09Aug2025 15:13:00.570] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[09Aug2025 15:13:00.570] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[09Aug2025 15:13:00.572] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[09Aug2025 15:13:00.575] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[09Aug2025 15:13:00.577] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[09Aug2025 15:13:00.619] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[09Aug2025 15:13:00.622] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[09Aug2025 15:13:00.622] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[09Aug2025 15:13:00.623] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[09Aug2025 15:13:00.625] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[09Aug2025 15:13:00.630] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[09Aug2025 15:13:00.633] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[09Aug2025 15:13:00.639] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[09Aug2025 15:13:00.639] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[09Aug2025 15:13:00.646] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[09Aug2025 15:13:00.647] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[09Aug2025 15:13:00.647] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[09Aug2025 15:13:00.647] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[09Aug2025 15:13:00.651] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[09Aug2025 15:13:00.655] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[09Aug2025 15:13:00.658] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[09Aug2025 15:13:00.667] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[09Aug2025 15:13:00.668] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[09Aug2025 15:13:00.677] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[09Aug2025 15:13:00.685] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[09Aug2025 15:13:00.687] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[09Aug2025 15:13:00.691] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[09Aug2025 15:13:00.704] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[09Aug2025 15:13:00.704] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[09Aug2025 15:13:00.706] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[09Aug2025 15:13:00.707] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[09Aug2025 15:13:00.707] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[09Aug2025 15:13:00.708] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[09Aug2025 15:13:00.724] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[09Aug2025 15:13:00.742] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[09Aug2025 15:13:00.744] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[09Aug2025 15:13:00.756] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[09Aug2025 15:13:00.757] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[09Aug2025 15:13:00.771] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[09Aug2025 15:13:00.771] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[09Aug2025 15:13:00.785] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[09Aug2025 15:13:00.787] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[09Aug2025 15:13:00.794] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[09Aug2025 15:13:00.795] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[09Aug2025 15:13:00.799] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[09Aug2025 15:13:00.799] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[09Aug2025 15:13:00.800] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
+[09Aug2025 15:13:01.023] [modloading-worker-0/INFO] [quark-zeta/]: Doing super early config setup for quark
+[09Aug2025 15:13:02.213] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [xkdeco:entity_types] initialized
+[09Aug2025 15:13:02.215] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		block_entity_type: 5
+[09Aug2025 15:13:02.216] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:block_templates] initialized
+[09Aug2025 15:13:02.216] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		kiwi:block_template: 2
+[09Aug2025 15:13:02.216] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:block_components] initialized
+[09Aug2025 15:13:02.216] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		kiwi:block_component: 10
+[09Aug2025 15:13:02.217] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:data] initialized
+[09Aug2025 15:13:02.217] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		recipe_serializer: 3
+[09Aug2025 15:13:02.217] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:item_templates] initialized
+[09Aug2025 15:13:02.217] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		kiwi:item_template: 3
+[09Aug2025 15:13:05.808] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/ebony_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09Aug2025 15:13:05.822] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/full_glass_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09Aug2025 15:13:05.824] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/glass_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09Aug2025 15:13:05.835] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/iron_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09Aug2025 15:13:05.843] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/mahogany_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09Aug2025 15:13:05.874] [main/ERROR] [snownee.kiwi.Kiwi/]: Failed to parse xkdeco:kiwi/block/varnished_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09Aug2025 15:13:05.894] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_big_table is not registered
+[09Aug2025 15:13:05.963] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
+[09Aug2025 15:13:05.984] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
+[09Aug2025 15:13:06.020] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_awning_window is not registered
+[09Aug2025 15:13:06.039] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_awning_window is not registered
+[09Aug2025 15:13:06.201] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_desk is not registered
+[09Aug2025 15:13:06.202] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
+[09Aug2025 15:13:06.227] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_table is not registered
+[09Aug2025 15:13:06.248] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roofed_lamp is not registered
+[09Aug2025 15:13:06.272] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_desk is not registered
+[09Aug2025 15:13:06.275] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_window is not registered
+[09Aug2025 15:13:06.277] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_awning_window is not registered
+[09Aug2025 15:13:06.287] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
+[09Aug2025 15:13:06.303] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_desk is not registered
+[09Aug2025 15:13:06.306] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_big_table is not registered
+[09Aug2025 15:13:06.308] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_table is not registered
+[09Aug2025 15:13:06.315] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_window is not registered
+[09Aug2025 15:13:06.325] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_window is not registered
+[09Aug2025 15:13:06.365] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_big_table is not registered
+[09Aug2025 15:13:06.420] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
+[09Aug2025 15:13:06.448] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:wooden_table is not registered
+[09Aug2025 15:13:06.460] [main/WARN] [snownee.kiwi.Kiwi/]: Shape xkdeco:roof_ridge is not registered
+[09Aug2025 15:13:09.165] [Thread-1/INFO] [zeta/]: About to refresh zeta's config, looking for better thread than 'Thread-1'...
+[09Aug2025 15:13:09.165] [Thread-1/WARN] [zeta/]: Using thread 'Thread-1' instead of the server thread
+[09Aug2025 15:13:09.166] [Thread-1/INFO] [zeta/]: zeta's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-1
+[09Aug2025 15:13:09.166] [Thread-1/INFO] [zeta/]: About to refresh zeta's config, looking for better thread than 'Thread-1'...
+[09Aug2025 15:13:09.166] [Thread-1/WARN] [zeta/]: Using thread 'Thread-1' instead of the server thread
+[09Aug2025 15:13:09.166] [Thread-1/INFO] [zeta/]: zeta's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-1
+[09Aug2025 15:13:09.203] [Thread-1/INFO] [quark-zeta/]: About to refresh quark's config, looking for better thread than 'Thread-1'...
+[09Aug2025 15:13:09.203] [Thread-1/WARN] [quark-zeta/]: Using thread 'Thread-1' instead of the server thread
+[09Aug2025 15:13:09.203] [Thread-1/INFO] [quark-zeta/]: quark's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-1
+[09Aug2025 15:13:09.207] [Thread-1/INFO] [quark-zeta/]: About to refresh quark's config, looking for better thread than 'Thread-1'...
+[09Aug2025 15:13:09.207] [Thread-1/WARN] [quark-zeta/]: Using thread 'Thread-1' instead of the server thread
+[09Aug2025 15:13:09.208] [Thread-1/INFO] [quark-zeta/]: quark's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-1
+[09Aug2025 15:13:09.379] [main/INFO] [zeta/]: Common setup: Performing initial refresh of zeta's config on thread 'main'
+[09Aug2025 15:13:09.380] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[09Aug2025 15:13:09.382] [main/INFO] [zeta/]: Waiting for server start before accepting filewatcher changes to zeta's config
+[09Aug2025 15:13:09.384] [main/INFO] [quark-zeta/]: Common setup: Performing initial refresh of quark's config on thread 'main'
+[09Aug2025 15:13:09.406] [main/INFO] [quark-zeta/]: Waiting for server start before accepting filewatcher changes to quark's config
+[09Aug2025 15:13:09.479] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Starting version check at https://raw.githubusercontent.com/copycats-plus/copycats/multiloader/update.json
+[09Aug2025 15:13:09.749] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Found status: AHEAD Current: 2.2.2+mc.1.20.1-forge Target: null
+[09Aug2025 15:13:09.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[09Aug2025 15:13:09.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[09Aug2025 15:13:09.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[09Aug2025 15:13:10.847] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.33 Target: 1.20.1-1.1.35
+[09Aug2025 15:13:10.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[09Aug2025 15:13:11.058] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[09Aug2025 15:13:15.946] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09Aug2025 15:13:20.808] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
+[09Aug2025 15:13:20.808] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
+[09Aug2025 15:13:23.215] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe jurassic_additions:tranquilizer_gun_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'jurassic_additions:tranquilizer_gun'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
@@ -319,17 +316,17 @@ com.google.gson.JsonSyntaxException: Unknown item 'jurassic_additions:tranquiliz
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[09Aug2025 01:14:41.596] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
-[09Aug2025 01:14:41.605] [main/WARN] [quark-zeta/]: Non-existent flag varian_bookshelves being used
-[09Aug2025 01:14:41.641] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
-[09Aug2025 01:14:41.641] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
-[09Aug2025 01:14:41.642] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
-[09Aug2025 01:14:41.645] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
-[09Aug2025 01:14:41.656] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
-[09Aug2025 01:14:41.657] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
-[09Aug2025 01:14:41.658] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
-[09Aug2025 01:14:41.658] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
-[09Aug2025 01:14:41.661] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createdieselgenerators:smithing/chemical_sprayer_lighter
+[09Aug2025 15:13:23.235] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
+[09Aug2025 15:13:23.245] [main/WARN] [quark-zeta/]: Non-existent flag varian_bookshelves being used
+[09Aug2025 15:13:23.280] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
+[09Aug2025 15:13:23.281] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
+[09Aug2025 15:13:23.281] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
+[09Aug2025 15:13:23.283] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
+[09Aug2025 15:13:23.293] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
+[09Aug2025 15:13:23.294] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
+[09Aug2025 15:13:23.294] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
+[09Aug2025 15:13:23.294] [main/WARN] [quark-zeta/]: Non-existent flag stone_pavement being used
+[09Aug2025 15:13:23.297] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createdieselgenerators:smithing/chemical_sprayer_lighter
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -358,509 +355,68 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[09Aug2025 01:14:41.663] [main/WARN] [quark-zeta/]: Non-existent flag varian_bookshelves being used
-[09Aug2025 01:14:41.687] [main/WARN] [quark-zeta/]: Non-existent flag varian_bookshelves being used
-[09Aug2025 01:14:41.692] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 25 recipes
-[09Aug2025 01:14:41.786] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 2792 recipe advancements
-[09Aug2025 01:14:41.795] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 311 advancements
-[09Aug2025 01:14:41.801] [main/INFO] [superlord.prehistoricrevival.common.recipes.DNAAnalyzerRecipeJsonManager/]: Data loader for loot_tables/dna_analyzer loaded 27 jsons
-[09Aug2025 01:14:41.814] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 3 patches
-[09Aug2025 01:14:41.815] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
-[09Aug2025 01:14:41.815] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
-[09Aug2025 01:14:41.815] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
-[09Aug2025 01:14:41.816] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
-[09Aug2025 01:14:41.816] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
-[09Aug2025 01:14:41.816] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 3 patches
-[09Aug2025 01:14:41.817] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
-[09Aug2025 01:14:41.817] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
-[09Aug2025 01:14:41.820] [main/INFO] [superlord.prehistoricfauna.common.recipes.PaleontologyTableRecipeJsonManager/]: Data loader for prehistoricfauna/paleontology_table loaded 3 jsons
-[09Aug2025 01:14:45.760] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'minecraft:carpets' doesn't exist!
-[09Aug2025 01:14:45.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[09Aug2025 01:14:45.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[09Aug2025 01:14:45.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[09Aug2025 01:14:45.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[09Aug2025 01:14:46.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[09Aug2025 01:14:46.037] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[09Aug2025 01:14:46.111] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09Aug2025 01:14:46.112] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[09Aug2025 01:14:46.112] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09Aug2025 01:14:46.112] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[09Aug2025 01:14:46.176] [Server thread/INFO] [zeta/]: Server starting, accepting filewatcher changes for zeta's config
-[09Aug2025 01:14:46.177] [Server thread/INFO] [quark-zeta/]: Server starting, accepting filewatcher changes for quark's config
-[09Aug2025 01:14:46.178] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[09Aug2025 01:14:46.876] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking/]: We are not using UDP, falling back to TCP
-[09Aug2025 01:14:49.061] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[09Aug2025 01:14:51.231] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[09Aug2025 01:14:52.354] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[09Aug2025 01:14:53.357] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[09Aug2025 01:14:53.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[09Aug2025 01:14:54.358] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[09Aug2025 01:14:55.359] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[09Aug2025 01:14:56.362] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[09Aug2025 01:14:56.489] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Aug2025 01:14:56.515] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Aug2025 01:14:56.524] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Aug2025 01:14:56.543] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Aug2025 01:14:56.813] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Aug2025 01:14:56.829] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Aug2025 01:14:56.886] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Aug2025 01:14:57.362] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[09Aug2025 01:14:57.378] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Aug2025 01:14:58.363] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[09Aug2025 01:14:58.396] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Aug2025 01:14:58.402] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Aug2025 01:14:58.877] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Aug2025 01:14:59.364] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[09Aug2025 01:14:59.376] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[09Aug2025 01:14:59.842] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5967 ms
-[09Aug2025 01:14:59.843] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.718s)! For help, type "help"
-[09Aug2025 01:14:59.884] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[09Aug2025 01:14:59.888] [Server thread/INFO] [superlord.prehistoricfauna.common.recipes.PaleontologyTableRecipeJsonManager/]: Registered 3 jsons with items!
-[09Aug2025 01:15:08.598] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:44905] logged in with entity id 78 at (659.3793437938356, 88.0, 284.25956864879265)
-[09Aug2025 01:15:08.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
-[09Aug2025 01:15:36.186] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[09Aug2025 01:15:36.187] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@7bebbbfc, suppressing error
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at nimble.portable_blueprints.items.Blueprint.aggiungiBloccoInventario(Blueprint.java:415) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at nimble.portable_blueprints.items.Blueprint.m_6225_(Blueprint.java:147) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:585) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
-	at net.minecraft.world.item.ItemStack.m_41661_(ItemStack.java:245) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:358) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[09Aug2025 01:15:37.187] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[09Aug2025 01:15:37.188] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@2cdf3289, suppressing error
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at nimble.portable_blueprints.items.Blueprint.aggiungiBloccoInventario(Blueprint.java:415) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at nimble.portable_blueprints.items.Blueprint.m_6225_(Blueprint.java:147) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:585) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
-	at net.minecraft.world.item.ItemStack.m_41661_(ItemStack.java:245) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:358) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[09Aug2025 01:15:39.035] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[09Aug2025 01:15:39.036] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@4aebfe5c, suppressing error
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at nimble.portable_blueprints.items.Blueprint.aggiungiBloccoInventario(Blueprint.java:415) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at nimble.portable_blueprints.items.Blueprint.m_6225_(Blueprint.java:147) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:585) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
-	at net.minecraft.world.item.ItemStack.m_41661_(ItemStack.java:245) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:358) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[09Aug2025 01:15:39.379] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[09Aug2025 01:15:39.380] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@6732a02f, suppressing error
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at nimble.portable_blueprints.items.Blueprint.aggiungiBloccoInventario(Blueprint.java:415) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at nimble.portable_blueprints.items.Blueprint.m_6225_(Blueprint.java:147) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:585) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
-	at net.minecraft.world.item.ItemStack.m_41661_(ItemStack.java:245) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:358) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[09Aug2025 01:15:39.780] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[09Aug2025 01:15:39.780] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@634247b2, suppressing error
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at nimble.portable_blueprints.items.Blueprint.aggiungiBloccoInventario(Blueprint.java:415) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at nimble.portable_blueprints.items.Blueprint.m_6225_(Blueprint.java:147) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:585) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
-	at net.minecraft.world.item.ItemStack.m_41661_(ItemStack.java:245) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:358) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[09Aug2025 01:15:39.985] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[09Aug2025 01:15:39.985] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@5f4e2c2d, suppressing error
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at nimble.portable_blueprints.items.Blueprint.aggiungiBloccoInventario(Blueprint.java:415) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at nimble.portable_blueprints.items.Blueprint.m_6225_(Blueprint.java:147) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:585) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
-	at net.minecraft.world.item.ItemStack.m_41661_(ItemStack.java:245) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:358) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[09Aug2025 01:15:40.187] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[09Aug2025 01:15:40.188] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@190b23b, suppressing error
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at nimble.portable_blueprints.items.Blueprint.aggiungiBloccoInventario(Blueprint.java:415) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at nimble.portable_blueprints.items.Blueprint.m_6225_(Blueprint.java:147) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:585) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
-	at net.minecraft.world.item.ItemStack.m_41661_(ItemStack.java:245) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:358) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[09Aug2025 01:15:40.435] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[09Aug2025 01:15:40.435] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@74e6f450, suppressing error
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at nimble.portable_blueprints.items.Blueprint.aggiungiBloccoInventario(Blueprint.java:415) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at nimble.portable_blueprints.items.Blueprint.m_6225_(Blueprint.java:147) ~[portable_blueprints-v1.8.5-mv1.20.1.jar%23142!/:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:585) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
-	at net.minecraft.world.item.ItemStack.m_41661_(ItemStack.java:245) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:358) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[09Aug2025 02:13:24.199] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=680, y=89, z=290} BlockPos{x=680, y=88, z=290}
-[09Aug2025 02:16:23.250] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=668, y=88, z=295} BlockPos{x=664, y=87, z=293}
-[09Aug2025 02:16:38.950] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=672, y=87, z=294} BlockPos{x=672, y=86, z=293}
-[09Aug2025 02:57:24.288] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: natasha[/127.57.230.156:38939] logged in with entity id 20387 at (647.5738548443195, 98.0, 259.21817205712244)
-[09Aug2025 02:57:24.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha joined the game
-[09Aug2025 03:04:13.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha has made the advancement [What a Deal!]
-[09Aug2025 03:04:13.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha has made the advancement [Ace Trainer]
-[09Aug2025 03:04:13.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha has made the advancement [First Trade]
-[09Aug2025 03:07:55.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha has made the advancement [We Need to Go Deeper]
-[09Aug2025 03:08:46.625] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=81, y=89, z=19} BlockPos{x=81, y=89, z=18}
-[09Aug2025 03:08:46.660] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=81, y=89, z=19} BlockPos{x=81, y=89, z=18}
-[09Aug2025 03:08:47.471] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=81, y=88, z=17} BlockPos{x=81, y=87, z=16}
-[09Aug2025 03:08:47.559] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=81, y=88, z=17} BlockPos{x=81, y=87, z=16}
-[09Aug2025 03:08:47.662] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=81, y=88, z=17} BlockPos{x=81, y=87, z=16}
-[09Aug2025 03:09:26.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> [name:"Portal", x:664, y:95, z:304, dim:minecraft:the_nether]
-[09Aug2025 03:10:07.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> [name:"Portal", x:83, y:95, z:38, dim:minecraft:the_nether]
-[09Aug2025 03:10:40.831] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=72, y=81, z=-13} BlockPos{x=72, y=80, z=-13}
-[09Aug2025 03:10:45.484] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=62, y=72, z=-13} BlockPos{x=62, y=71, z=-13}
-[09Aug2025 03:10:51.674] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=62, z=-20} BlockPos{x=57, y=62, z=-19}
-[09Aug2025 03:10:51.865] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=62, z=-21} BlockPos{x=57, y=61, z=-20}
-[09Aug2025 03:10:52.078] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=61, z=-22} BlockPos{x=57, y=61, z=-20}
-[09Aug2025 03:12:25.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha burned to death
-[09Aug2025 03:14:39.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha burned to death
-[09Aug2025 03:16:46.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha tried to swim in lava
-[09Aug2025 03:23:53.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> no puedo hablar mucho pq duermen
-[09Aug2025 03:24:09.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> para encanta cosas
-[09Aug2025 03:24:36.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> podes usar el yunke
-[09Aug2025 03:25:01.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> el yunke gasta esp
-[09Aug2025 03:25:05.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> exp
-[09Aug2025 03:25:41.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> e
-[09Aug2025 03:27:15.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> ni idea por?
-[09Aug2025 03:28:05.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> mañana vamos al cine iguao
-[09Aug2025 03:28:15.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> el domingo capaz hacemo s algfo
-[09Aug2025 03:30:26.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> caminante no hay camino, se hace camino al andaaar
-[09Aug2025 03:32:12.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha has made the advancement [Cover Me with Diamonds]
-[09Aug2025 03:32:57.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> no es automatica, las juntas y se cocinan al toque
-[09Aug2025 03:33:12.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> estoy e eso
-[09Aug2025 03:34:28.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> no la uses dps te explico como se usa
-[09Aug2025 03:38:03.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha has made the advancement [Sweet Dreams]
-[09Aug2025 03:39:39.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> dame papas y m,ira
-[09Aug2025 03:40:38.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> primero cerra la puerta
-[09Aug2025 03:40:56.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> no te dije q las busques tmp
-[09Aug2025 03:41:14.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> ese ya no funciona
-[09Aug2025 03:43:21.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> si
-[09Aug2025 03:52:08.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> q paso
-[09Aug2025 03:52:17.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> JAJAJAJA
-[09Aug2025 04:00:52.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> si
-[09Aug2025 04:00:57.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> para eso estan
-[09Aug2025 04:02:47.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> bañate sucia
-[09Aug2025 04:03:10.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> (la joda soy yo)
-[09Aug2025 04:03:43.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> tal vual
-[09Aug2025 04:04:02.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> bata eu
-[09Aug2025 04:10:29.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> proximamente
-[09Aug2025 04:13:47.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> filo iV
-[09Aug2025 04:19:14.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha has made the advancement [Best Friends Forever]
-[09Aug2025 04:19:35.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> son velocirraptores?
-[09Aug2025 04:20:02.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> si cargas el resourve pack, los caballos se vuelven dinos
-[09Aug2025 04:20:18.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> por eso
-[09Aug2025 04:21:29.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha has made the advancement [A Seedy Place]
-[09Aug2025 04:28:42.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> se puede comprar con un aldeano
-[09Aug2025 04:29:06.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> no lo hice aun
-[09Aug2025 04:30:05.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> cuando hagan un aldeanito lo hago
-[09Aug2025 04:30:57.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> envidia
-[09Aug2025 04:32:33.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> fedesaurio
-[09Aug2025 04:32:48.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> fedesaurio
-[09Aug2025 04:33:39.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> dps me hago uno
-[09Aug2025 04:41:15.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> nat
-[09Aug2025 04:41:17.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> veni
-[09Aug2025 04:41:35.150] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
-[09Aug2025 04:41:35.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg left the game
-[09Aug2025 04:42:01.105] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3bacd55c[id=<null>,name=Morangg,properties={},legacy=false] (/127.157.203.231:54051) lost connection: Disconnected
-[09Aug2025 04:42:10.365] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:43579] logged in with entity id 56774 at (668.1941061332155, 90.0, 299.6648191905256)
-[09Aug2025 04:42:10.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
-[09Aug2025 04:42:27.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> con la t y a la derecha estan lo esmotes
-[09Aug2025 04:43:02.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> con la t abris el chat, y a la dercha estan los emotes
-[09Aug2025 04:43:38.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> si
-[09Aug2025 04:48:39.613] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=678, y=95, z=204} BlockPos{x=679, y=94, z=202}
-[09Aug2025 04:48:56.835] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=728, y=96, z=201} BlockPos{x=730, y=96, z=202}
-[09Aug2025 04:48:58.777] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=731, y=96, z=201} BlockPos{x=732, y=96, z=202}
-[09Aug2025 04:49:00.323] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=733, y=95, z=201} BlockPos{x=733, y=94, z=200}
-[09Aug2025 04:49:00.607] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=733, y=96, z=202} BlockPos{x=733, y=94, z=201}
-[09Aug2025 04:51:34.562] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=677, y=92, z=199} BlockPos{x=677, y=92, z=200}
-[09Aug2025 04:52:01.654] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=612, y=69, z=253} BlockPos{x=613, y=69, z=253}
-[09Aug2025 04:52:01.712] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=612, y=69, z=253} BlockPos{x=613, y=69, z=253}
-[09Aug2025 04:52:02.168] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=611, y=69, z=251} BlockPos{x=610, y=68, z=253}
-[09Aug2025 04:52:02.205] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=611, y=69, z=251} BlockPos{x=610, y=68, z=253}
-[09Aug2025 04:52:02.257] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=611, y=69, z=251} BlockPos{x=610, y=68, z=253}
-[09Aug2025 04:52:50.209] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=615, y=72, z=253} BlockPos{x=615, y=70, z=252}
-[09Aug2025 04:52:55.164] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=615, y=71, z=261} BlockPos{x=616, y=71, z=261}
-[09Aug2025 04:52:55.213] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=615, y=71, z=261} BlockPos{x=616, y=71, z=261}
-[09Aug2025 04:54:22.009] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=477, y=63, z=353} BlockPos{x=475, y=62, z=355}
-[09Aug2025 04:54:22.069] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=477, y=63, z=353} BlockPos{x=475, y=62, z=355}
-[09Aug2025 04:54:26.459] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=472, y=63, z=358} BlockPos{x=471, y=62, z=360}
-[09Aug2025 04:55:25.611] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=473, y=64, z=311} BlockPos{x=474, y=63, z=312}
-[09Aug2025 04:55:32.568] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=482, y=66, z=323} BlockPos{x=482, y=64, z=323}
-[09Aug2025 04:55:35.864] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=476, y=67, z=325} BlockPos{x=475, y=65, z=325}
-[09Aug2025 04:55:36.687] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=472, y=68, z=325} BlockPos{x=471, y=66, z=323}
-[09Aug2025 04:55:50.459] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=470, y=68, z=319} BlockPos{x=471, y=66, z=318}
-[09Aug2025 04:55:52.224] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=474, y=68, z=321} BlockPos{x=475, y=66, z=320}
-[09Aug2025 04:55:53.762] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=471, y=67, z=316} BlockPos{x=472, y=65, z=314}
-[09Aug2025 04:55:54.006] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=470, y=67, z=315} BlockPos{x=471, y=65, z=314}
-[09Aug2025 04:55:55.425] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=467, y=67, z=316} BlockPos{x=467, y=65, z=316}
-[09Aug2025 04:56:11.258] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=523, y=65, z=299} BlockPos{x=522, y=63, z=298}
-[09Aug2025 04:56:16.118] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=520, y=63, z=296} BlockPos{x=521, y=62, z=295}
-[09Aug2025 04:56:19.859] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=530, y=65, z=294} BlockPos{x=531, y=63, z=296}
-[09Aug2025 04:56:19.928] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=530, y=65, z=294} BlockPos{x=531, y=63, z=296}
-[09Aug2025 04:58:48.057] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=743, y=99, z=221} BlockPos{x=742, y=99, z=221}
-[09Aug2025 04:58:48.124] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=743, y=99, z=221} BlockPos{x=742, y=99, z=221}
-[09Aug2025 04:58:48.905] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=744, y=99, z=220} BlockPos{x=743, y=99, z=220}
-[09Aug2025 04:58:57.608] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=735, y=102, z=207} BlockPos{x=735, y=102, z=208}
-[09Aug2025 04:58:57.673] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=735, y=102, z=207} BlockPos{x=735, y=102, z=208}
-[09Aug2025 04:58:57.724] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=735, y=101, z=206} BlockPos{x=735, y=102, z=208}
-[09Aug2025 05:01:07.210] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of natasha) moved wrongly! 0.433029975903537
-[09Aug2025 05:01:07.257] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of natasha) moved wrongly! 0.4016425019477765
-[09Aug2025 05:01:07.311] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of natasha) moved wrongly! 0.3702550279924708
-[09Aug2025 05:01:07.383] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of natasha) moved wrongly! 0.3388675540375061
-[09Aug2025 05:01:09.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of natasha) moved wrongly! 0.27074303565689206
-[09Aug2025 05:01:17.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of Morangg) moved wrongly! 0.4165668916022014
-[09Aug2025 05:01:17.559] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of Morangg) moved wrongly! 0.3856060277804545
-[09Aug2025 05:01:17.616] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of Morangg) moved wrongly! 0.35447308818299916
-[09Aug2025 05:01:17.660] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of Morangg) moved wrongly! 0.32272610112727307
-[09Aug2025 05:01:21.852] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of Morangg) moved wrongly! 0.32479888297569914
-[09Aug2025 05:01:21.918] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of Morangg) moved wrongly! 0.2838261770446593
-[09Aug2025 05:01:22.103] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fedesaurio (vehicle of Morangg) moved wrongly! 0.2982615237600612
-[09Aug2025 05:03:47.609] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=749, y=69, z=395} BlockPos{x=748, y=67, z=395}
-[09Aug2025 05:03:54.857] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=771, y=69, z=398} BlockPos{x=773, y=67, z=399}
-[09Aug2025 05:03:54.927] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=771, y=69, z=398} BlockPos{x=773, y=67, z=399}
-[09Aug2025 05:03:54.958] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=771, y=69, z=398} BlockPos{x=773, y=67, z=399}
-[09Aug2025 05:08:41.213] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=712, y=65, z=122} BlockPos{x=713, y=63, z=123}
-[09Aug2025 05:09:22.816] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=820, y=73, z=251} BlockPos{x=822, y=71, z=252}
-[09Aug2025 05:09:22.861] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=820, y=73, z=251} BlockPos{x=822, y=71, z=252}
-[09Aug2025 05:09:53.436] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=850, y=70, z=318} BlockPos{x=850, y=69, z=317}
-[09Aug2025 05:10:19.068] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=896, y=72, z=320} BlockPos{x=897, y=70, z=322}
-[09Aug2025 05:10:57.561] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=871, y=73, z=351} BlockPos{x=870, y=71, z=350}
-[09Aug2025 05:11:10.667] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=877, y=72, z=329} BlockPos{x=879, y=70, z=329}
-[09Aug2025 05:11:41.057] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=883, y=72, z=323} BlockPos{x=884, y=71, z=321}
-[09Aug2025 05:11:41.115] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=883, y=72, z=323} BlockPos{x=884, y=71, z=321}
-[09Aug2025 05:11:41.265] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=882, y=72, z=323} BlockPos{x=881, y=70, z=323}
-[09Aug2025 05:11:41.966] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=880, y=72, z=326} BlockPos{x=879, y=70, z=327}
-[09Aug2025 05:13:00.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> ya me voy a dormir yo
-[09Aug2025 05:13:04.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> apago el sv
-[09Aug2025 05:13:16.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> mañana sigp
-[09Aug2025 05:13:49.262] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
-[09Aug2025 05:13:49.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg left the game
-[09Aug2025 05:14:15.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[09Aug2025 05:14:15.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[09Aug2025 05:14:15.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[09Aug2025 05:14:15.102] [Physics thread/INFO] [Burger Factory/]: Deleting VSPhysicsPipelineStage resources!
-[09Aug2025 05:14:15.105] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ap/]: Physics pipeline ending
-[09Aug2025 05:14:15.120] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: natasha lost connection: Disconnected
-[09Aug2025 05:14:15.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha left the game
-[09Aug2025 05:14:15.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[09Aug2025 05:14:15.182] [DefaultDispatcher-worker-4/INFO] [Burger Factory/]: VSPhysicsPipelineStage is fully deleted!
-[09Aug2025 05:14:15.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:overworld
-[09Aug2025 05:14:15.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:the_nether
-[09Aug2025 05:14:15.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:cretaceous
-[09Aug2025 05:14:15.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:the_end
-[09Aug2025 05:14:15.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:triassic
-[09Aug2025 05:14:15.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:jurassic
-[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cretaceous): All chunks are saved
-[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (triassic): All chunks are saved
-[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (jurassic): All chunks are saved
-[09Aug2025 05:14:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Aug2025 15:13:23.299] [main/WARN] [quark-zeta/]: Non-existent flag varian_bookshelves being used
+[09Aug2025 15:13:23.324] [main/WARN] [quark-zeta/]: Non-existent flag varian_bookshelves being used
+[09Aug2025 15:13:23.330] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 25 recipes
+[09Aug2025 15:13:23.450] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 2792 recipe advancements
+[09Aug2025 15:13:23.459] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 311 advancements
+[09Aug2025 15:13:23.466] [main/INFO] [superlord.prehistoricrevival.common.recipes.DNAAnalyzerRecipeJsonManager/]: Data loader for loot_tables/dna_analyzer loaded 27 jsons
+[09Aug2025 15:13:23.479] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 3 patches
+[09Aug2025 15:13:23.479] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[09Aug2025 15:13:23.479] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[09Aug2025 15:13:23.479] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[09Aug2025 15:13:23.480] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[09Aug2025 15:13:23.480] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[09Aug2025 15:13:23.480] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 3 patches
+[09Aug2025 15:13:23.481] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[09Aug2025 15:13:23.481] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[09Aug2025 15:13:23.484] [main/INFO] [superlord.prehistoricfauna.common.recipes.PaleontologyTableRecipeJsonManager/]: Data loader for prehistoricfauna/paleontology_table loaded 3 jsons
+[09Aug2025 15:13:28.446] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'minecraft:carpets' doesn't exist!
+[09Aug2025 15:13:28.593] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[09Aug2025 15:13:28.593] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[09Aug2025 15:13:28.593] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[09Aug2025 15:13:28.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[09Aug2025 15:13:28.757] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[09Aug2025 15:13:28.782] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[09Aug2025 15:13:28.859] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09Aug2025 15:13:28.859] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[09Aug2025 15:13:28.859] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09Aug2025 15:13:28.860] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[09Aug2025 15:13:28.925] [Server thread/INFO] [zeta/]: Server starting, accepting filewatcher changes for zeta's config
+[09Aug2025 15:13:28.925] [Server thread/INFO] [quark-zeta/]: Server starting, accepting filewatcher changes for quark's config
+[09Aug2025 15:13:28.926] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[09Aug2025 15:13:29.690] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking/]: We are not using UDP, falling back to TCP
+[09Aug2025 15:13:34.145] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[09Aug2025 15:13:34.857] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09Aug2025 15:13:35.858] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09Aug2025 15:13:36.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09Aug2025 15:13:36.861] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09Aug2025 15:13:37.377] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[09Aug2025 15:13:37.863] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09Aug2025 15:13:38.864] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09Aug2025 15:13:39.864] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09Aug2025 15:13:40.871] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09Aug2025 15:13:41.872] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09Aug2025 15:13:42.028] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.043] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.061] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.075] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.091] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.103] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.115] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.123] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.132] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.139] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.150] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.164] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.356] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Aug2025 15:13:42.854] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[09Aug2025 15:13:42.873] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09Aug2025 15:13:43.354] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[09Aug2025 15:13:43.616] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7263 ms
+[09Aug2025 15:13:43.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.743s)! For help, type "help"
+[09Aug2025 15:13:43.654] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[09Aug2025 15:13:43.658] [Server thread/INFO] [superlord.prehistoricfauna.common.recipes.PaleontologyTableRecipeJsonManager/]: Registered 3 jsons with items!
+[09Aug2025 15:13:43.874] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09Aug2025 15:13:58.475] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:59153] logged in with entity id 79 at (673.3338258713741, 90.0, 298.76324827284395)
+[09Aug2025 15:13:58.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
