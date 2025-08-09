@@ -60,10 +60,12 @@
     "criteria": {
       "minecraft:birch_forest": "2025-08-06 02:31:43 +0000",
       "minecraft:bamboo_jungle": "2025-08-06 02:27:33 +0000",
+      "minecraft:beach": "2025-08-09 04:23:36 +0000",
       "minecraft:dark_forest": "2025-08-06 02:31:18 +0000",
       "minecraft:river": "2025-08-06 02:30:50 +0000",
       "minecraft:forest": "2025-08-06 02:32:16 +0000",
       "minecraft:jungle": "2025-08-06 02:31:05 +0000",
+      "minecraft:ocean": "2025-08-09 04:23:51 +0000",
       "minecraft:plains": "2025-08-06 02:32:56 +0000"
     },
     "done": false
@@ -136,6 +138,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2025-08-09 04:22:27 +0000",
       "minecraft:chicken": "2025-08-06 03:32:16 +0000"
     },
     "done": false
@@ -205,6 +208,12 @@
     },
     "done": false
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-08-09 04:19:14 +0000"
+    },
+    "done": true
+  },
   "thijquint:anti": {
     "criteria": {
       "tick": "2025-08-09 02:57:24 +0000"
@@ -214,6 +223,12 @@
   "morevillagers:master_trade": {
     "criteria": {
       "villagertrade": "2025-08-09 03:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-08-09 04:21:29 +0000"
     },
     "done": true
   },
