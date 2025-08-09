@@ -721,3 +721,9 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 [09Aug2025 03:10:52.078] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=61, z=-22} BlockPos{x=57, y=61, z=-20}
 [09Aug2025 03:12:25.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha burned to death
 [09Aug2025 03:14:39.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha burned to death
+[09Aug2025 03:16:46.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natasha tried to swim in lava
+[09Aug2025 03:23:53.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> no puedo hablar mucho pq duermen
+[09Aug2025 03:24:09.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> para encanta cosas
+[09Aug2025 03:24:36.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> podes usar el yunke
+[09Aug2025 03:25:01.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> el yunke gasta esp
+[09Aug2025 03:25:05.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Morangg> exp
