@@ -7993,3 +7993,11 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [10Aug2025 17:53:26.659] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
 [10Aug2025 17:53:26.673] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
 [10Aug2025 17:53:27.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [Cover Me with Diamonds]
+[10Aug2025 17:57:50.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [Let's Get To Work]
+[10Aug2025 17:58:26.652] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[10Aug2025 17:58:26.665] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[10Aug2025 18:03:26.655] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[10Aug2025 18:03:26.667] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[10Aug2025 18:04:35.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [We Need to Go Deeper]
+[10Aug2025 18:04:37.222] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2109ms or 42 ticks behind
+[10Aug2025 18:04:52.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [Monster Hunter]

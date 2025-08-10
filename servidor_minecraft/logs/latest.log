@@ -423,3 +423,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [10Aug2025 17:47:13.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [First Trade]
 [10Aug2025 17:51:45.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [Sweet Dreams]
 [10Aug2025 17:53:27.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [Cover Me with Diamonds]
+[10Aug2025 17:57:50.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [Let's Get To Work]
+[10Aug2025 18:04:35.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [We Need to Go Deeper]
+[10Aug2025 18:04:37.222] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2109ms or 42 ticks behind
+[10Aug2025 18:04:52.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [Monster Hunter]

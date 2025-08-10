@@ -1,4 +1,10 @@
 {
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2025-08-10 17:53:27 +0000"
+    },
+    "done": true
+  },
   "morevillagers:first_trade": {
     "criteria": {
       "villagertrade": "2025-08-10 17:47:13 +0000"
@@ -13,7 +19,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "melon_slice": "2025-08-10 17:40:11 +0000"
+      "melon_slice": "2025-08-10 17:40:11 +0000",
+      "golden_carrot": "2025-08-10 17:57:20 +0000"
     },
     "done": false
   },
@@ -47,11 +54,21 @@
     },
     "done": true
   },
+  "morevillagers:all_workstations_get": {
+    "criteria": {
+      "grindstone": "2025-08-10 17:57:50 +0000"
+    },
+    "done": false
+  },
   "morevillagers:all_professions_traded": {
     "criteria": {
+      "toolsmith": "2025-08-10 17:54:25 +0000",
       "fletcher": "2025-08-10 17:49:26 +0000",
       "woodworker": "2025-08-10 17:48:55 +0000",
-      "weaponsmith": "2025-08-10 17:47:13 +0000"
+      "librarian": "2025-08-10 18:02:49 +0000",
+      "weaponsmith": "2025-08-10 17:47:13 +0000",
+      "armorer": "2025-08-10 17:53:27 +0000",
+      "farmer": "2025-08-10 17:56:01 +0000"
     },
     "done": false
   },
@@ -126,6 +143,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2025-08-10 17:43:45 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:first_workstation_get": {
+    "criteria": {
+      "grindstone": "2025-08-10 17:57:50 +0000"
     },
     "done": true
   },
