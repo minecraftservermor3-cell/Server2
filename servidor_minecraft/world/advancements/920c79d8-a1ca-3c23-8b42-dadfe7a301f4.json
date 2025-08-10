@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-08-10 18:29:53 +0000"
+    },
+    "done": true
+  },
   "morevillagers:first_trade": {
     "criteria": {
       "villagertrade": "2025-08-10 17:47:13 +0000"
@@ -29,6 +35,12 @@
       "golden_carrot": "2025-08-10 17:57:20 +0000"
     },
     "done": false
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-08-10 18:29:23 +0000"
+    },
+    "done": true
   },
   "morevillagers:root": {
     "criteria": {
@@ -62,7 +74,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:enderman": "2025-08-10 18:04:52 +0000"
+      "minecraft:enderman": "2025-08-10 18:04:52 +0000",
+      "quark:foxhound": "2025-08-10 18:25:56 +0000"
     },
     "done": false
   },
@@ -174,7 +187,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:nether_wastes": "2025-08-10 18:04:37 +0000"
+      "minecraft:nether_wastes": "2025-08-10 18:04:37 +0000",
+      "minecraft:basalt_deltas": "2025-08-10 18:31:25 +0000"
     },
     "done": false
   },

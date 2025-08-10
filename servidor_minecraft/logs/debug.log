@@ -8009,3 +8009,11 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [10Aug2025 18:18:28.775] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
 [10Aug2025 18:23:28.748] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
 [10Aug2025 18:23:28.762] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[10Aug2025 18:28:28.752] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[10Aug2025 18:28:28.763] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[10Aug2025 18:29:23.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [Stone Age]
+[10Aug2025 18:29:53.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol has made the advancement [Hidden in the Depths]
+[10Aug2025 18:33:28.751] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[10Aug2025 18:33:28.766] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[10Aug2025 18:34:02.668] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lol lost connection: Disconnected
+[10Aug2025 18:34:02.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lol left the game
